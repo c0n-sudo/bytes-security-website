@@ -28,7 +28,7 @@ include 'includes/header.php';
         <li>Maßgeschneiderte Lösungen zur Risikominimierung.</li>
     </ul>
 
-    <h4>Sicherheitsaudtis und Penetrationstests</h4>
+    <h4>Sicherheitsaudits und Penetrationstests</h4>
     <ul>
         <li>Durchführung von Sicherheitsaudits, um Schwachstellen aufzudecken.</li>
         <li>Penetrationstests zur Überprüfung der Widerstandsfähigkeit gegenüber Angriffen.</li>

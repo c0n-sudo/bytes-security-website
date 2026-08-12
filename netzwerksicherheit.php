@@ -1,6 +1,6 @@
 <?php
 $pageTitel = "Netzwerksicherheit";
-include 'include/header.php';
+include 'includes/header.php';
 ?>
 
 <secton class="page-hero">
@@ -46,4 +46,4 @@ include 'include/header.php';
     </p>
 </section>
 
-<?php include 'include/footer.php'; ?>
+<?php include 'includes/footer.php'; ?>

@@ -11,7 +11,7 @@ include 'includes/header.php';
         <h3>Virenschutz und Malware-Analyse</h3>
     </a>
     <a href="sicherheitsaudits.php" class="solution-card">
-        <h3>Regelmäßige Sicherheitsaudtis</h3>
+        <h3>Regelmäßige Sicherheitsaudits</h3>
     </a>
     <a href="netzwerksicherheit.php" class="solution-card">
         <h3>Netzwerksicherheit für umfassenden Schutz</h3>

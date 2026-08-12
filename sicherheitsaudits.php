@@ -1,6 +1,6 @@
 <?php 
 $pageTitel = "Regelmäßige Sicherheitsaudits";
-include 'include/header.php';
+include 'includes/header.php';
 ?>
 
 <section class="page-hero">
@@ -41,4 +41,4 @@ include 'include/header.php';
     </p>
 </section>
 
-<?php include 'include/footer.php'; ?>
+<?php include 'includes/footer.php'; ?>
