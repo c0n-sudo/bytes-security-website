@@ -16,13 +16,13 @@
             </div>
 
             <div class="footer-legal">
-                <a href="/agb.php">AGB</a>
-                <a href="/impressum.php">Impressum</a>
-                <a href="/datenschutz.php">Datenschutz</a>
+                <a href="agb.php">AGB</a>
+                <a href="impressum.php">Impressum</a>
+                <a href="datenschutz.php">Datenschutz</a>
             </div>
         </div>
     </footer>
 
-    <script src="/assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

@@ -47,7 +47,7 @@ include 'includes/header.php';
         Nehmen Sie gerne Kontakt mit uns auf, wir melden uns schnellstmöglich bei Ihnen zurück.
     </p>
 
-    <form action="/php-mails.php" methode="POST" class="contact-form">
+    <form action="php-mails.php" methode="POST" class="contact-form">
 
         <label for="name">Name</label>
         <input type="text" id="name" name="name" required>
@@ -65,7 +65,7 @@ include 'includes/header.php';
         <textarea id="message" name="message" rows="6" required></textarea>
 
         <button type="submit">Nachricht senden</button>
-        
+
     </form>
 </section>
 
