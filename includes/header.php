@@ -10,7 +10,7 @@
 
     <header class="site-header">
         <div class="header-inner">
-            <a href=/index.php class="logo">
+            <a href="index.php" class="logo">
                 <img src="assets/img/logo.png" alt="Bytes Security">
             </a>
 
@@ -31,7 +31,8 @@
                 </ul>
             </nav>
 
-         <a href="index.php#kontakt" class="btn-cta">Anfrage stellen</a>
+            <a href="index.php#kontakt" class="btn-cta">Anfrage stellen</a>
+            <a href="termin.php" class="btn-cta">Termin buchen</a>
         </div>
     </header>
 
