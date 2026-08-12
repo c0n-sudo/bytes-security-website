@@ -1,6 +1,6 @@
 <?php
 $pageTitel = "Managed Firewall-Services";
-include 'include/headers.php';
+include 'includes/header.php';
 ?>
 
 <section class="page-hero">

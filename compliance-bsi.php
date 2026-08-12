@@ -1,6 +1,6 @@
 <?php
 $pageTitel = "Compliance-Management für BSI-Richtlinien";
-include 'include/headers.php';
+include 'includes/header.php';
 ?>
 
 <section class="page-hero">
