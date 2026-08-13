@@ -5,7 +5,7 @@ include 'includes/header.php';
 
 <section class="page-hero">
     <p class="breadcrumb">Cybersecurity &middot; Details zu den Dienstleistungen</p>
-    <h1>Manged Firewall-Services</h1>
+    <h1>Managed Firewall-Services</h1>
 </section>
 
 <section class="content">
@@ -21,7 +21,7 @@ include 'includes/header.php';
         Wir passen die Firewall-Einstellungen an Ihre spezifischen Anforderungen an und optimieren sie regelmäßig, um eine effiziente Abwehr von Angriffen sicherzustellen.
     </p>
 
-    <h4>Bedrohunsanalyse und -abwehr</h4>
+    <h4>Bedrohungsanalyse und -abwehr</h4>
     <p>
         Durch fortlaufende Analyse von Bedrohungensinformationen und schnelle Reaktion schützen wir Ihr Unternehmen vor den neusten Cyberangriffen.
     </p>
@@ -32,7 +32,7 @@ include 'includes/header.php';
     </p>
 
     <p>
-        Unsere Manged Firewall-Services beiten Ihnen die Gewissheit, dass Ihr Netzwerk stats vor den neusten Bedrohungen geschützt ist. Verlassen Sie sich auf unsere Expertise, damit Sie sich auf Ihr Kerngeschäft konzentrieren können.
+        Unsere Manged Firewall-Services bieten Ihnen die Gewissheit, dass Ihr Netzwerk stats vor den neusten Bedrohungen geschützt ist. Verlassen Sie sich auf unsere Expertise, damit Sie sich auf Ihr Kerngeschäft konzentrieren können.
     </p>
 </section>
 
