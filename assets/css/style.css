@@ -65,7 +65,7 @@ a {
     height: 40px;
 }
 
-main-nav ul {
+.main-nav ul {
     display: flex;
     gap: var(--space-3);
     list-style: none;
