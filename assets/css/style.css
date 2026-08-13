@@ -216,7 +216,70 @@ a {
     color: #4b5563;
 }
 
+/* Kontaktformular */
+#kontakt {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: var(--space-6) var(--space-3);
+}
 
+#kontakt h2 {
+    font-size: var(--font-size-xl);
+    color: var(--color-navy);
+    margin-bottom: var(--space-2);
+}
+
+.contact-form {
+    margin-top: var(--space-4);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+}
+
+.contact-form label {
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    color: var(--color-navy);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: var(--space-2);
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: var(--font-size-base);
+    transition: border-color var(--transition-fast);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: var(--color-accent);
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    align-self: flex-start;
+    margin-top: var(--space-2);
+    background: var(--color-accent);
+    color: #10143a;
+    border: none;
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    padding: var(--space-2) var(--space-4);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: opacity var(--transition-fast);
+}
+
+.contact-form button:hover {
+    opacity: 0.85;
+}
 /* Mobile: Header + Hero */
 @media (max-width: 768px) {
     .head-inner {
@@ -253,5 +316,9 @@ a {
 
     #services {
         padding: var(--space-4) var(--space-2);
+    }
+
+    .contact-form button {
+        width: 100%;
     }
 }
