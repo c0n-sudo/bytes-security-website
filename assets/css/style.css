@@ -280,6 +280,80 @@ a {
 .contact-form button:hover {
     opacity: 0.85;
 }
+
+/* Unterseiten: Page-Hero + Content */
+.page-hero {
+    background: var(--color-navy-dark);
+    color: var(--color-text-light);
+    padding: var(--space-5) var(--space-3);
+}
+
+.breadcrumb {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-1);
+}
+
+.page-hero h1 {
+    font-size: var(--font-size-xl);
+    line-height: 1.2;
+}
+
+.content h2 {
+    font-size: var(--font-size-lg);
+    color:var(--color-navy);
+    margin-bottom: var(--space-2);
+}
+
+.content h3 {
+    font-size: var(--font-size-lg);
+    color: var(--color-navy);
+    margin-top: var(--space-4);
+    margin-bottom: var(--space-2);
+}
+
+.content p {
+    margin-bottom: var(--space-2);
+    color: #4b5563;
+}
+
+.content ul {
+    margin: 0 0 var(--space-2) var(--space-3);
+    color: #4b5563;
+}
+
+.content ul li {
+    margin-bottom: var(--space-1);
+}
+
+/* Dienstleistungen-Übersicht (cybersecurity.php) */
+.solution-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--space-6) var(--space-3);
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: var(--space-3);
+}
+
+.solution-card {
+    display: block;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: var(--space-3);
+    transition: transform var(--transition-base), border-color var(--transition-base);
+}
+
+.solution-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--color-accent);
+}
+
+.solution-card h3 {
+    font-size: var(--font-size-base);
+    color: var(--color-navy);
+}
+
 /* Mobile: Header + Hero */
 @media (max-width: 768px) {
     .head-inner {
@@ -320,5 +394,18 @@ a {
 
     .contact-form button {
         width: 100%;
+    }
+
+    .page-hero {
+        padding: var(--space-4) var(--space-2);
+    }
+
+    .content {
+        padding: var(--space-4) var(--space-2);
+    }
+
+    .solutions-grid {
+        grid-template-columns: 1fr;
+        padding: var(--space-4) var(--space-2);
     }
 }
