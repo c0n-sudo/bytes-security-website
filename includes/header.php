@@ -18,7 +18,7 @@
                 <ul>
                     <li class="has-dropdown">
                         <a href="#">Dienstleistungen</a>
-                        <ul clas="dropdown">
+                        <ul class="dropdown">
                             <li><a href="cybersecurity.php">Cybersecurity</a></li>
                             <li><a href="managed-services.php">Managed Services</a></li>
                             <li><a href="bsi-konformitaet.php">BSI Konformität</a></li>
