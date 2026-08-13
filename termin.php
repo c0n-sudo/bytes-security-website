@@ -7,7 +7,7 @@ include 'includes/header.php';
     <h1>Termin buchen</h1>
 </section>
 
-<section class="content">
+<section class="booking.section">
     <iframe
         src="https://outlook.office.com/bookwithme/user/23536829307541a7bbb33e3d5b8fc4e4@bytes-security.de/meetingtype/OtxWSuK5pUmCLcj2SO4nLg2?anonymous&ismsaljsauthenabled&ep=mlink"
         width="100%"

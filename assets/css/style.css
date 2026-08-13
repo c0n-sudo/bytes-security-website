@@ -354,6 +354,20 @@ a {
     color: var(--color-navy);
 }
 
+/* Termin-Buchung */
+.booking.section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: var(--space-5) var(--space-3);
+}
+
+.booking-section iframe {
+    display: block;
+    width: 100%;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+}
+
 /* Mobile: Header + Hero */
 @media (max-width: 768px) {
     .header-inner {
@@ -407,5 +421,13 @@ a {
     .solutions-grid {
         grid-template-columns: 1fr;
         padding: var(--space-4) var(--space-2);
+    }
+
+    .booking-section {
+        padding: var(--space-4) var(--space-2);
+    }
+
+    .booking-section iframe {
+        height: 900px;
     }
 }
