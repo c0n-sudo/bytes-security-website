@@ -8,7 +8,7 @@ $pageTitel ='Team'; include 'includes/header.php'; ?>
 
 <section class="team-grid">
     <div class="team-card">
-        <img src="assets/img/team/thomas-karzelek.jpg" alt="Thomas Karzelek">
+        <img src="assets/img/thomas-karzelek.jpg" alt="Thomas Karzelek">
         <h3>Thomas Karzelek</h3>
         <p class="role">Gründer &amp; Geschäftsführer</p>
         <p>
@@ -17,7 +17,7 @@ $pageTitel ='Team'; include 'includes/header.php'; ?>
     </div>
 
     <div class="team-card">
-        <img src="assets/img/team/lars-kasimir.jpg" alt="Lars Kasimir">
+        <img src="assets/img/lars-kasimir.jpg" alt="Lars Kasimir">
         <h3>Lars Kasimir</h3>
         <p class="role">Microsoft Administrator &amp; IT-Consultant</p>
         <p>
