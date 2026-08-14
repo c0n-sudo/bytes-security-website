@@ -28,6 +28,7 @@
                     <li><a href="index.php#schulungen">Schulungen</a></li>
                     <li><a href="index.php#geschaeftsmodell">Geschäftsmodell</a></li>
                     <li><a href="index.php#kontakt">Kontakt</a></li>
+                    <li><a href="team.php">Team</a></li>
                 </ul>
             </nav>
 
