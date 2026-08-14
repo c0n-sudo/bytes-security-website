@@ -410,10 +410,11 @@ a {
 }
 
 .team-card img {
-    width: 140px;
-    height: 140px;
+    width: 150px;
+    height: 190px;
     border-radius: 50%;
     object-fit: cover;
+    object-position: center 20%;
     margin-bottom: var(--space-2);
 }
 
