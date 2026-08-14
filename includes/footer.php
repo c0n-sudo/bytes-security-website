@@ -11,7 +11,7 @@
                 <h2>Kontakt</h2>
                 <p>Bytes Security GmbH</p>
                 <p>Ostenallee 48, 59063 Hamm</p>
-                <p><a href="tel:+492381999797 0">+49 2381 999 797 0</a></p>
+                <p><a href="tel:+492381999797 0">+49 (0) 2381 999 797 0</a></p>
                 <p><a href="mailto:info@bytes-security.de">info@bytes-security.de</a></p>
             </div>
 
