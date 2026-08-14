@@ -3,7 +3,7 @@
     <footer class="site-footer">
         <div class="footer-inner">
             <div class="footer-brand">
-                <img src="\assets\img\logo.png" alt="Bytes Security">
+                <img src="assets/img/logo.png" alt="Bytes Security">
                 <p> Die Sicherheit unserer Kunden hat für uns obersten Priorität. </p>
             </div>
 
@@ -18,7 +18,7 @@
             <div class="footer-legal">
                 <a href="agb.php">AGB</a>
                 <a href="impressum.php">Impressum</a>
-                <a href="datenschutz.php">Datenschutz</a>
+                <a href="datenschutz.php">Datenschutzerklärung</a>
             </div>
         </div>
     </footer>
