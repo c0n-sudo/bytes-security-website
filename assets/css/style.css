@@ -131,6 +131,12 @@ a {
     opacity: 0.85;
 }
 
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+}
+
 .nav-toggle {
     display: none;
     flex-direction: column;
