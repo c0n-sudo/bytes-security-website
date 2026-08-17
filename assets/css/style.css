@@ -53,6 +53,9 @@ a {
 .site-header {
     background: var(--color-navy);
     color: var(--color-text-light);
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .header-inner {
@@ -601,4 +604,11 @@ a {
     text-transform: uppercase;
     color: var(--color-accent);
     margin-bottom: var(--space-1);
+}
+
+#services,
+#schulungen,
+#geschaeftsmodell,
+#kontakt {
+    scroll-margin-top: 90px;
 }
