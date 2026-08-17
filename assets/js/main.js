@@ -1,5 +1,5 @@
 const fadeTargets = document.querySelectorAll(
-    '#services, #kontakt, .content, .team-grid, .solutions-grid, -booking-section'
+    '#services, #kontakt, .content, .team-grid, .solutions-grid, .booking-section'
 );
 
 if (fadeTargets.length && 'IntersectionObserver' in window) {
@@ -7,12 +7,12 @@ if (fadeTargets.length && 'IntersectionObserver' in window) {
         entries.forEach((entry) => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('is-visible');
-                observer.unobserver(entry.target);
+                observer.unobserve(entry.target);
             }
         });
     }, { threshold: 0.15 });
 
-    fadeTargets.forEach((el) => observer.observer(el));
+    fadeTargets.forEach((el) => observer.observe(el));
 }
 
 const navToggle = document.querySelector('.nav-toggle');

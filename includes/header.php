@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <script>document.documentElement.classicList.add('js');</script>
+    <script>document.documentElement.classList.add('js');</script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo isset($pageTitle) ? $pageTitle . ' - Bytes Security' : 'Bytes Security GmbH'; ?></title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -44,7 +44,7 @@
                         <a href="team.php">Team</a>
                         <button class="dropdown-toggle" aria-label="Untermenü öffnen" aria-expanded="false"></button>
                         <ul class="dropdown">
-                            <li><a href="team.php">Unser Team</li>
+                            <li><a href="team.php">Unser Team</a></li>
                             <li><a href="rueckblick.php">Bytes Security Rückblick</a></li>
                         </ul>
                     </li>

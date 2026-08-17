@@ -146,8 +146,16 @@ a {
 .nav-toggle span {
     display: block;
     height: 2px;
-    background: var(--color-text-ligth);
+    background: var(--color-text-light);
     border-radius: 2px;
+}
+
+.dropdown-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: var(--space-1);
 }
 
 .dropdown-toggle::before {
@@ -420,7 +428,7 @@ a {
 }
 
 /* Dienstleistungen-Übersicht (cybersecurity.php) */
-.solution-grid {
+.solutions-grid {
     max-width: 1200px;
     margin: 0 auto;
     padding: var(--space-6) var(--space-3);
