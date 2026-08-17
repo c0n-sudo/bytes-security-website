@@ -574,6 +574,25 @@ a {
     border-top: 2px solid #d1d5db;
 }
 
+#schulungen {
+    background: #f5f6fa;
+}
+
+/* Mehr Weißraum an den Seiten, nur Desktop */
+@media (min-width: 769px) {
+    .content,
+    .page-hero,
+    .hero,
+    #services,
+    #kontakt,
+    .team-grid,
+    .solutions-grid,
+    .booking-section {
+        padding-left: var(--space-5);
+        padding-right: var(--space-5);
+    }
+}
+
 .eyebrow {
     display: block;
     font-size: var(--font-size-sm);
