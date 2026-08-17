@@ -18,10 +18,18 @@
                 <img src="assets/img/logo.png" alt="Bytes Security">
             </a>
 
+            <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-wrapper">
             <nav class="main-nav">
                 <ul>
                     <li class="has-dropdown">
                         <a href="#">Dienstleistungen</a>
+                        <button class="dropdown-toggle" aria-label="Untermenü öffnen" aria-expanded="false"></button>
                         <ul class="dropdown">
                             <li><a href="cybersecurity.php">Cybersecurity</a></li>
                             <li><a href="managed-services.php">Managed Services</a></li>
@@ -34,6 +42,7 @@
                     <li><a href="index.php#kontakt">Kontakt</a></li>
                     <li class="has-dropdown">
                         <a href="team.php">Team</a>
+                        <button class="dropdown-toggle" aria-label="Untermenü öffnen" aria-expanded="false"></button>
                         <ul class="dropdown">
                             <li><a href="team.php">Unser Team</li>
                             <li><a href="rueckblick.php">Bytes Security Rückblick</a></li>
@@ -44,6 +53,7 @@
 
             <a href="index.php#kontakt" class="btn-cta">Anfrage stellen</a>
             <a href="termin.php" class="btn-cta">Termin buchen</a>
+            </div>
         </div>
     </header>
 
