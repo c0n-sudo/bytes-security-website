@@ -35,9 +35,13 @@
 }
 
 body {
-    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-family: 'Inter', system-ui, -apple-system, "Segoe UI", sans-serif;
     color: var(--color-text);
     line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Space Grotesk', system-ui, sans-serif; 
 }
 
 a {
@@ -136,8 +140,23 @@ a {
     margin: 0 auto;
     padding: var(--space-5) var(--space-3);
     display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
     gap: var(--space-4);
+}
+
+.footer-partner h2 {
+    color: var(--color-text-light);
+    font-size: var(--font-size-base);
+    margin-bottom: var(--space-2);
+}
+
+.footer-partner a {
+    font-size: var(--font-size-sm);
+    transition: color var(--transition-fast);
+}
+
+.footer-partner a:hover {
+    color: var(--color-text-light);
 }
 
 .footer-brand img {
@@ -446,6 +465,7 @@ a {
     color: #4b5563;
 }
 
+
 /* Mobile: Header + Hero */
 @media (max-width: 768px) {
     .header-inner {
@@ -520,4 +540,27 @@ a {
     .team-grid {
         grid-template-columns: 1fr;
     }
+}
+
+
+/* Scroll Fade-in */
+.js .content,
+.js #services,
+.js #kontakt,
+.js .team-grid,
+.js .solutions-grid,
+.js .booking-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.js .content.is-visible,
+.js #services.is-visible,
+.js #kontakt.is-visible,
+.js .team-grid.is-visible,
+.js .solutions-grid.is-visible,
+.js .booking-section.is-visible {
+    opacity: 1;
+    transform: translateY(0);
 }

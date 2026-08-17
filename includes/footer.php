@@ -19,6 +19,11 @@
                 <p><a href="mailto:info@bytes-security.de">info@bytes-security.de</a></p>
             </div>
 
+            <div class="footer-partner">
+                <h2>Partner</h2>
+                <a href="https://bsitco.de/" target="_blank" rel="noopener">BSITCO GmbH</a>
+            </div>
+
             <div class="footer-legal">
                 <a href="agb.php">AGB</a>
                 <a href="impressum.php">Impressum</a>
