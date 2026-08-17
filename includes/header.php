@@ -28,7 +28,13 @@
                     <li><a href="index.php#schulungen">Schulungen</a></li>
                     <li><a href="index.php#geschaeftsmodell">Geschäftsmodell</a></li>
                     <li><a href="index.php#kontakt">Kontakt</a></li>
-                    <li><a href="team.php">Team</a></li>
+                    <li class="has-dropdown">
+                        <a href="team.php">Team</a>
+                        <ul class="dropdown">
+                            <li><a href="team.php">Unser Team</li>
+                            <li><a href="rueckblick.php">Bytes Security Rückblick</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
 

@@ -33,12 +33,46 @@ include 'includes/header.php';
         </article>
 </section>
 
-<section id="schulungen">
-    <!-- Schulungen: Awareness, Penetration Testing, Security Audits -->
+<section id="schulungen" class="content">
+    <h2>Schulungen & Ausbildung</h2>
+    <p>
+        Wir bilden IT-Nachwuchskräfte  praxisnah aus - unter anderem im Rahmen einer auf 24 Monate komprimierten Umschulung zum/zur Fachinformatiker/in, Fachrichtung Systemintegration.
+    </p>
+
+    <h3>Fachmodule</h3>
+    <ul>
+        <li>IT-Netzwerke (3 Tage)</li>
+        <li>Windows Server, Active Directory & Entra (4 Tage)</li>
+        <li>Linux Administration (3 Tage)</li>
+        <li>Virtualisierung, Storage & Backup (3 Tage)</li>
+        <li>IT-Security & Datenschutz (5 Tage)</li>
+        <li>AP1/AP2-Vorbereitung & IHK-Project (5 Tage)</li>
+    </ul>
+
+    <h3>Begleitung während der Ausbildung</h3>
+    <p>
+        Elektronischer Ausbildungsnachweis und regelmäßige Lernstandsdiagnostik - von der Eingangsanalyse über Monatsgespräche und Quartalreviews bis zu Prüfungssimulationen. Die Ausbildung wird von Thomas Karzelek persönlich betreut.
+    </p>
 </section>
 
-<section id="geschaeftsmodell">
-    <!-- Geschäftsmodell: Beratung, Implementierung, Support -->
+<section id="geschaeftsmodell" class="content">
+    <h2>Unser Geschäftsmodell</h2>
+    <p>
+        Wir kombinieren einen kostenlosen Einstiegs-Check mit kontinuierlichem Monitoring und starken Partnerschaften, um Unternehmen jeder Größe einen realistischen Blick auf ihre IT-Sicherheit zu ermöglichen.
+    </p>
+
+    <h3>IT-Security-Check</h3>
+    <p>
+        Unser kostenloser IT-Security-Check analysiert automatisiert und nicht-invasiv Ihre IT-Umgebung in 9 Kategorien - darunter E-Mail-Security, veraltete Anwendungen, DSGVO-Konformität, Netzwerk- und Websicherheit, Zertifikate und Datenpannen. Die Prüfung orientiert sich an anerkannten Standards wie NIST CIS, BSI-Grundschutz, OWASP und DSGVO. Das Ergebnis: ein konsolidierter Security-Score, eine Managementübersicht und ein persönliches Auswertungsgespräch mit konkreten Handlungsempfehlungen.
+    </p>
+    <p>
+        Auf Wunsch überwachen wir Ihre IT-Umgebung laufend weiter - Scan-Intervall wählbar von täglichen bis quartalsweise, mit automatischen Alarmen bei neuen Schwachstellen. Unser Team unterstützt Sie dabei direkt bei der Behebung.
+    </p>
+
+    <h3>Co-Branding-Partnerschaft mit LocateRisk</h3>
+    <p>
+        Als Partner von LocateRisk bieten wir zusätzlich Geschäftspartner-Risikomanagement: die IT-Sicherheit und Compliance Ihrer Zulieferer und Partner wird geprüft, inklusive Fragebogen-Vorlagen für NIS2, DORA, TUSAX und ISO 27001 - wichtig für Unternehmen, die ihre gesamte Lieferkette absichern müssen.
+    </p>
 </section>
 
 <section id="kontakt">
