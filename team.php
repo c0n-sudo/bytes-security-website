@@ -39,7 +39,7 @@ $pageTitel ='Team'; include 'includes/header.php'; ?>
         <h3>Aleksandra Szczupakowska</h3>
         <p class="role">Anwendungsentwickler</p>
         <p>
-            Aleksandra Szczupakowska ist Anwendungsentwickler bei der Bytes Security GmbH. SIe verantwortetr Erstellung, Pflege und Optimierung von Webseiten mit WordPress sowie die Betreuung digitaler Lernplattformen mit Moodle. Zusätzlich arbeitet sie mit Microsoft Dynamics 365 Sales und der Power Platform zur Automatisierung von Geschäftsprozessen sowie mit Wazuh im Sicherheitsbereich. Aktuell erweitert sie ihre Kentnisse im Bereich IT-Sicherheit mit dem CompTIA-Security+ -Kurs.
+            Aleksandra Szczupakowska ist Anwendungsentwickler bei der Bytes Security GmbH. Sie verantwortet Erstellung, Pflege und Optimierung von Webseiten mit WordPress sowie die Betreuung digitaler Lernplattformen mit Moodle. Zusätzlich arbeitet sie mit Microsoft Dynamics 365 Sales und der Power Platform zur Automatisierung von Geschäftsprozessen sowie mit Wazuh im Sicherheitsbereich. Aktuell erweitert sie ihre Kentnisse im Bereich IT-Sicherheit mit dem CompTIA-Security+ -Kurs.
         </p>
     </div>
 </section>
