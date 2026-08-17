@@ -564,3 +564,22 @@ a {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* Section-Trenner auf der Startseite */
+#schulungen,
+#geschaeftsmodell,
+#kontakt {
+    padding-top: var(--space-6);
+    padding-bottom: var(--space-6);
+    border-top: 2px solid #d1d5db;
+}
+
+.eyebrow {
+    display: block;
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+    margin-bottom: var(--space-1);
+}

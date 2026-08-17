@@ -34,6 +34,7 @@ include 'includes/header.php';
 </section>
 
 <section id="schulungen" class="content">
+    <p class="eyebrow">Schulungen</p>
     <h2>Schulungen & Ausbildung</h2>
     <p>
         Wir bilden IT-Nachwuchskräfte  praxisnah aus - unter anderem im Rahmen einer auf 24 Monate komprimierten Umschulung zum/zur Fachinformatiker/in, Fachrichtung Systemintegration.
@@ -56,6 +57,7 @@ include 'includes/header.php';
 </section>
 
 <section id="geschaeftsmodell" class="content">
+    <p class="eyebrow">Geschäftsmodell</p>
     <h2>Unser Geschäftsmodell</h2>
     <p>
         Wir kombinieren einen kostenlosen Einstiegs-Check mit kontinuierlichem Monitoring und starken Partnerschaften, um Unternehmen jeder Größe einen realistischen Blick auf ihre IT-Sicherheit zu ermöglichen.
@@ -76,6 +78,7 @@ include 'includes/header.php';
 </section>
 
 <section id="kontakt">
+    <p class="eyebrow">Kontakt</p>
     <h2>Kontakt</h2>
     <p>
         Nehmen Sie gerne Kontakt mit uns auf, wir melden uns schnellstmöglich bei Ihnen zurück.
