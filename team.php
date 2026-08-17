@@ -33,6 +33,15 @@ $pageTitel ='Team'; include 'includes/header.php'; ?>
             Tobias Rottmann ist IT-Berater bei der Bytes Security GmbH und BSITCO GmbH. Als IT-Spezialist mit fundierter Erfahrung in Cybersecurity, PCI-DSS-Compliance und Systemadministration hat er unter anderem als Senior PCI-Compliance-Spezialist internationale Kunden betreut und unterstützt aktuell zusätzlich die Deutschen Rentenversicherung Bund in IT-Adminstration und Sicherheit. Dank seiner mehrsprachigen Erfahrung (Deutsch, Polnisch, Englisch, Spanisch) verbindet er technisches Know-how mit kundenorientierter Kommunikation in internationlen Teams.
         </p>
     </div>
+
+    <div class="team-card">
+        <img src="assets/img/aleksandra-szczupakowska.jpg" alt="Aleksandra Szczupakowska">
+        <h3>Aleksandra Szczupakowska</h3>
+        <p class="role">Anwendungsentwickler</p>
+        <p>
+            Aleksandra Szczupakowska ist Anwendungsentwickler bei der Bytes Security GmbH. SIe verantwortetr Erstellung, Pflege und Optimierung von Webseiten mit WordPress sowie die Betreuung digitaler Lernplattformen mit Moodle. Zusätzlich arbeitet sie mit Microsoft Dynamics 365 Sales und der Power Platform zur Automatisierung von Geschäftsprozessen sowie mit Wazuh im Sicherheitsbereich. Aktuell erweitert sie ihre Kentnisse im Bereich IT-Sicherheit mit dem CompTIA-Security+ -Kurs.
+        </p>
+    </div>
 </section>
 
 <?php include 'includes/footer.php'; ?>
