@@ -5,6 +5,10 @@
             <div class="footer-brand">
                 <img src="assets/img/logo.png" alt="Bytes Security">
                 <p> Die Sicherheit unserer Kunden hat für uns obersten Priorität. </p>
+                <div class="footer-badges">
+                    <img src="assets/img/cyberrisikocheck-logo.png" alt="BSI CyberRisikoCheck Teilnahmebescheinigung">
+                    <img src="assets/img/allianz-cybersicherheit-logo.png" alt="Mitglied Allianz für Cybersicherheit">
+                </div>
             </div>
 
             <div class="footer-contact">
