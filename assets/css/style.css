@@ -51,7 +51,7 @@ a {
 
 /* Header */
 .site-header {
-    background: rgba(18, 22, 48, 0.78);
+    background: var(--color-navy);
     color: var(--color-text-light);
     position: sticky;
     top: 0;
