@@ -39,7 +39,7 @@
                     <li><a href="index.php#services">Lösungen</a></li>
                     <li><a href="index.php#schulungen">Schulungen</a></li>
                     <li><a href="index.php#geschaeftsmodell">Geschäftsmodell</a></li>
-                    <li><a href="kontakt.php">Kontakt</a></li>
+                    <li><a href="#footer-kontakt">Kontakt</a></li>
                     <li class="has-dropdown">
                         <a href="team.php">Team</a>
                         <button class="dropdown-toggle" aria-label="Untermenü öffnen" aria-expanded="false"></button>

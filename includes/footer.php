@@ -11,7 +11,7 @@
                 </div>
             </div>
 
-            <div class="footer-contact">
+            <div class="footer-contact" id="footer-kontakt">
                 <h2>Kontakt</h2>
                 <p>Bytes Security GmbH</p>
                 <p>Ostenallee 48, 59063 Hamm</p>
