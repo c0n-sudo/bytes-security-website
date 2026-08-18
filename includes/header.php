@@ -26,6 +26,7 @@
 
             <div class="nav-wrapper">
             <nav class="main-nav">
+                <span class="nav-hightlights"></span>
                 <ul>
                     <li class="has-dropdown">
                         <a href="#">Dienstleistungen</a>

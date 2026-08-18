@@ -15,6 +15,24 @@ if (fadeTargets.length && 'IntersectionObserver' in window) {
     fadeTargets.forEach((el) => observer.observe(el));
 }
 
+const mainNav = document.querySelector('.main-nav');
+const navHightlight = document.querySelector('nav-hightlight');
+if (mainNav && navHightlight) {
+    const navLinks = mainNav.querySelectorAll(':scope > ul > li > a');
+    navLinks.forEach((link) => {
+        link.addEventListener('mouseenter', () => {
+            const linkRect = link.getBoundingClientRect();
+            const navRect = mainNav.getBoundingClientRect();
+            navHightlight.style.left = '${linkRect.left - navRect.left - 8}px';
+            navHightlight.style.width = '${linkRect.width + 16}px';
+            navHightlight.style.opacity= '1';
+        });
+    });
+    mainNav.addEventListener('mouseleave', () => {
+        navHightlight.style.opacity = '0';
+    })
+}
+
 const siteHeader = document.querySelector('.site-header');
 if (siteHeader) {
     window.addEventListener('scroll', () => {
