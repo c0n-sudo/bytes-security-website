@@ -23,7 +23,7 @@ include 'includes/header.php';
 
     <h4>Bedrohungsanalyse und -abwehr</h4>
     <p>
-        Durch fortlaufende Analyse von Bedrohungensinformationen und schnelle Reaktion schützen wir Ihr Unternehmen vor den neusten Cyberangriffen.
+        Durch fortlaufende Analyse von Bedrohungensinformationen und schnelle Reaktion schützen wir Ihr Unternehmen vor den neuesten Cyberangriffen.
     </p>
 
     <h4>Berichterstattung und Compliance</h4>
@@ -32,7 +32,7 @@ include 'includes/header.php';
     </p>
 
     <p>
-        Unsere Manged Firewall-Services bieten Ihnen die Gewissheit, dass Ihr Netzwerk stats vor den neusten Bedrohungen geschützt ist. Verlassen Sie sich auf unsere Expertise, damit Sie sich auf Ihr Kerngeschäft konzentrieren können.
+        Unsere Manged Firewall-Services bieten Ihnen die Gewissheit, dass Ihr Netzwerk stats vor den neuesten Bedrohungen geschützt ist. Verlassen Sie sich auf unsere Expertise, damit Sie sich auf Ihr Kerngeschäft konzentrieren können.
     </p>
 </section>
 

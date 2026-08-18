@@ -1,29 +1,29 @@
 <?php
-$pageTitel = "Netzwerksicherheit";
+$pageTitle = "Netzwerksicherheit";
 include 'includes/header.php';
 ?>
 
-<secton class="page-hero">
+<section class="page-hero">
     <p class="breadcrumb">Cybersecurity &middot; Details zu den Dienstleistungen</p>
     <h1>Netzwerksicherheit für umfassenden Schutz</h1>
-</secton>
+</section>
 
 <section class="content">
     <h2>Netzwerksicherheit für umfassenden Schutz</h2>
     <p>
-        Unsere Netzwerksicherheitsdienstleistungen bieten Ihnen eine umfassende Absicherung Ihrer IT-Infrastruktur. Wir verstehen, dass die Sicherheit Ihres Netzwerks von entscheidener Bedeutung ist, und bieten maßgeschneiderte Lösungen, um Ihr Unternehmen vor Cyberbedrohungen zu schützen.
+        Unsere Netzwerksicherheitsdienstleistungen bieten Ihnen eine umfassende Absicherung Ihrer IT-Infrastruktur. Wir verstehen, dass die Sicherheit Ihres Netzwerks von entscheidender Bedeutung ist, und bieten maßgeschneiderte Lösungen, um Ihr Unternehmen vor Cyberbedrohungen zu schützen.
     </p>
 
-    <h3>Leistungen in Überblick</h3>
+    <h3>Leistungen im Überblick</h3>
 
     <h4>Firewall-Konfiguration und -Überwachung</h4>
     <p>
-        Wir konfigurieren und überwachen Ihre Firewall, um den Datenverkehr zu steuern und anoutorisierte Zugriffe zu blockieren.
+        Wir konfigurieren und überwachen Ihre Firewall, um den Datenverkehr zu steuern und unautorisierte Zugriffe zu blockieren.
     </p>
 
     <h4>Intrusion Detection und Prevention</h4>
     <p>
-        Unsere Systeme erkenne und verhindern proaktiv Eindringunsversuche, um Ihr Netzwerk vor unbefugtem Zugriff zu schützen.
+        Unsere Systeme erkennen und verhindern proaktiv Eindringversuche, um Ihr Netzwerk vor unbefugtem Zugriff zu schützen.
     </p>
 
     <h4>Verschlüsselung des Datenverkehrs</h4>
@@ -42,7 +42,7 @@ include 'includes/header.php';
     </p>
 
     <p>
-        Mit unseren Netzwerksichheitsdienstleistungen können Sie sich darauf verlassen, dass Ihr Netzwerk gegen die neusten Bedrohungen geschützt ist. Fokussieren Sie sich auf Ihr Kerngeschäft, während wir für die Sicherheit Ihrer digitalen Infrastruktur sorgen.
+        Mit unseren Netzwerksicherheitsdienstleistungen können Sie sich darauf verlassen, dass Ihr Netzwerk gegen die neuesten Bedrohungen geschützt ist. Fokussieren Sie sich auf Ihr Kerngeschäft, während wir für die Sicherheit Ihrer digitalen Infrastruktur sorgen.
     </p>
 </section>
 
