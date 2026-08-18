@@ -51,7 +51,7 @@ a {
 
 /* Header */
 .site-header {
-    background: rgba(18, 22, 48, 0.92);
+    background: rgba(18, 22, 48, 0.78);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     color: var(--color-text-light);
@@ -593,7 +593,7 @@ a {
         gap: var(--space-1);
     }
 
-    .nav-hightlight {
+    .nav-highlight {
         display: none;
     }
 
@@ -775,10 +775,10 @@ body {
 }
 
 @media (min-width: 769px) {
-    .site-header {
-        top: 16px;
-        max-width: 1100px;
-        margin: 0 auto;
+    .nav-wrapper {
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.12);
         border-radius: 999px;
+        padding: var(--space-1) var(--space-2);
     }
 }
