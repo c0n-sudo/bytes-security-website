@@ -39,7 +39,7 @@
                     <li><a href="index.php#services">Lösungen</a></li>
                     <li><a href="index.php#schulungen">Schulungen</a></li>
                     <li><a href="index.php#geschaeftsmodell">Geschäftsmodell</a></li>
-                    <li><a href="index.php#kontakt">Kontakt</a></li>
+                    <li><a href="kontakt.php">Kontakt</a></li>
                     <li class="has-dropdown">
                         <a href="team.php">Team</a>
                         <button class="dropdown-toggle" aria-label="Untermenü öffnen" aria-expanded="false"></button>
@@ -51,7 +51,7 @@
                 </ul>
             </nav>
 
-            <a href="index.php#kontakt" class="btn-cta">Anfrage stellen</a>
+            <a href="kontakt.php" class="btn-cta">Anfrage stellen</a>
             <a href="termin.php" class="btn-cta">Termin buchen</a>
             </div>
         </div>
