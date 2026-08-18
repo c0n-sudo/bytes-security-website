@@ -271,6 +271,11 @@ a {
     color: var(--color-text-light);
     padding: var(--space-6) var(--space-3);
     text-align: left;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    scroll-snap-align: start;
 }
 
 .hero h1 {
@@ -290,6 +295,11 @@ a {
 #services {
     background: #ffffff;
     padding: var(--space-6) var(--space-3);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    scroll-snap-align: start;
 }
 
 .services-grid {
@@ -406,6 +416,17 @@ a {
     line-height: 1.2;
 }
 
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--space-6) var(--space-3);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    scroll-snap-align: start;
+}
+
 .content h2 {
     font-size: var(--font-size-lg);
     color:var(--color-navy);
@@ -441,6 +462,9 @@ a {
     display: grid;
     grid-template-columns: repeat(3 ,1fr);
     gap: var(--space-3);
+    min-height: 100vh;
+    align-content: center;
+    scroll-snap-align: start;
 }
 
 .solution-card {
@@ -462,10 +486,15 @@ a {
 }
 
 /* Termin-Buchung */
-.booking.section {
+.booking-section {
     max-width: 1000px;
     margin: 0 auto;
     padding: var(--space-5) var(--space-3);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    scroll-snap-align: start;
 }
 
 .booking-section iframe {
@@ -696,4 +725,8 @@ a {
 #kontakt,
 #footer-kontakt {
     scroll-margin-top: 90px;
+}
+
+body {
+    scroll-snap-type: y proximity;
 }
