@@ -52,8 +52,6 @@ a {
 /* Header */
 .site-header {
     background: rgba(18, 22, 48, 0.78);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
     color: var(--color-text-light);
     position: sticky;
     top: 0;
@@ -777,6 +775,8 @@ body {
 @media (min-width: 769px) {
     .nav-wrapper {
         background: rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
         border: 1px solid rgba(255, 255, 255, 0.12);
         border-radius: 999px;
         padding: var(--space-1) var(--space-2);
