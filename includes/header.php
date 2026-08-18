@@ -51,7 +51,8 @@
                     </li>
                 </ul>
             </nav>
-
+            
+            <span class="nav-divider"></span>
             <a href="kontakt.php" class="btn-cta">Anfrage stellen</a>
             <a href="termin.php" class="btn-cta">Termin buchen</a>
             </div>
