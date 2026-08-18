@@ -15,6 +15,17 @@ if (fadeTargets.length && 'IntersectionObserver' in window) {
     fadeTargets.forEach((el) => observer.observe(el));
 }
 
+const siteHeader = document.querySelector('.site-header');
+if (siteHeader) {
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 40) {
+            siteHeader.classList.add('is-scrolled');
+        } else {
+            siteHeader.classList.remove('is-scrolled');
+        }
+    })
+}
+
 const navToggle = document.querySelector('.nav-toggle');
 const navWrapper = document.querySelector('.nav-wrapper');
 

@@ -51,7 +51,9 @@ a {
 
 /* Header */
 .site-header {
-    background: var(--color-navy);
+    background: rgba(18, 22, 48, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     color: var(--color-text-light);
     position: sticky;
     top: 0;
@@ -725,6 +727,24 @@ a {
 #kontakt,
 #footer-kontakt {
     scroll-margin-top: 90px;
+}
+
+.site-header {
+    transition: padding var(--transition-base);
+}
+
+.site-header.is-scrolled .header-inner {
+    padding-top: var(--space-1);
+    padding-bottom: var(--space-1);
+}
+
+.site-header.is-scrolled .logo img {
+    height: 30px;
+    transition: height var(--transition-base);
+}
+
+.header-inner .logo img {
+    transition: height var(--transition-base);
 }
 
 body {
