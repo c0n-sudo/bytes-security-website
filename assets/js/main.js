@@ -17,20 +17,57 @@ if (fadeTargets.length && 'IntersectionObserver' in window) {
 
 const mainNav = document.querySelector('.main-nav');
 const navHighlight = document.querySelector('.nav-highlight');
+let activeSpyLink = null;
+
+function setNavHighlight(link) {
+    const linkRect = link.getBoundingClientRect();
+    const navRect = mainNav.getBoundingClientRect();
+    navHighlight.style.left = `${linkRect.left - navRect.left - 8}px`;
+    navHighlight.style.width = `${linkRect.width + 16}px`;
+    navHighlight.style.opacity = '1';
+}
+
 if (mainNav && navHighlight) {
     const navLinks = mainNav.querySelectorAll(':scope > ul > li > a');
     navLinks.forEach((link) => {
         link.addEventListener('mouseenter', () => {
-            const linkRect = link.getBoundingClientRect();
-            const navRect = mainNav.getBoundingClientRect();
-            navHighlight.style.left = `${linkRect.left - navRect.left - 8}px`;
-            navHighlight.style.width = `${linkRect.width + 16}px`;
-            navHighlight.style.opacity= '1';
+            setNavHighlight(link);
         });
     });
     mainNav.addEventListener('mouseleave', () => {
-        navHighlight.style.opacity = '0';
-    })
+        if (activeSpyLink) {
+            setNavHighlight(activeSpyLink);
+        } else {
+            navHighlight.style.opacity = '0';
+        }
+    });
+
+    const spySection = [];
+    navLinks.forEach((link) => {
+        const hash = link.hash;
+        if (hash) {
+            const target = document.querySelector(hash);
+            if (target) {
+                spySection.push({ link, target });
+            }
+        }
+    });
+
+    if (spySection.length && 'IntersectionObeserver' in window) {
+        const spyObserver = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    const match = spySection.find((s) => s.target === entry.target);
+                    if (match) {
+                        activeSpyLink = match.link;
+                        setNavHighlight(activeSpyLink);
+                    }
+                }
+            });
+        }, { rootMargin: '-45% 0px -45% 0px' });
+
+        spySection.forEach((s) => spyObserver.observe(s.target));
+    }
 }
 
 const siteHeader = document.querySelector('.site-header');
