@@ -16,6 +16,8 @@ if (fadeTargets.length && 'IntersectionObserver' in window) {
 }
 
 const mainNav = document.querySelector('.main-nav');
+let hasScrolled = false;
+window.addEventListener('scroll', () => { hasScrolled = true }, { once: true });
 const navHighlight = document.querySelector('.nav-highlight');
 let activeSpyLink = null;
 
@@ -56,7 +58,7 @@ if (mainNav && navHighlight) {
     if (spySection.length && 'IntersectionObserver' in window) {
         const spyObserver = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
-                if (entry.isIntersecting) {
+                if (entry.isIntersecting && hasScrolled) {
                     const match = spySection.find((s) => s.target === entry.target);
                     if (match) {
                         activeSpyLink = match.link;
