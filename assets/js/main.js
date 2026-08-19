@@ -53,7 +53,7 @@ if (mainNav && navHighlight) {
         }
     });
 
-    if (spySection.length && 'IntersectionObeserver' in window) {
+    if (spySection.length && 'IntersectionObserver' in window) {
         const spyObserver = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {
