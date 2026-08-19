@@ -66,7 +66,7 @@ if (mainNav && navHighlight) {
                     }
                 }
             });
-        }, { rootMargin: '-45% 0px -45% 0px' });
+        }, { rootMargin: '-35% 0px -55% 0px' });
 
         spySection.forEach((s) => spyObserver.observe(s.target));
     }
