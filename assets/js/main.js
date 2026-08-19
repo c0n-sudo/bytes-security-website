@@ -70,6 +70,17 @@ if (mainNav && navHighlight) {
 
         spySection.forEach((s) => spyObserver.observe(s.target));
     }
+
+    const kontaktSpy = spySection.find((s) => s.link.hash === '#footer-kontakt');
+    if (kontaktSpy) {
+        window.addEventListener('scroll', () => {
+            const nearBottom = window.innerHeight + window.scrollY >= document.body.offsetHeight - 50;
+            if (nearBottom && hasScrolled) {
+                activeSpyLink = kontaktSpy.link;
+                setNavHighlight(activeSpyLink);
+            }
+        });
+    }
 }
 
 const siteHeader = document.querySelector('.site-header');
