@@ -21,9 +21,10 @@
 
             <div class="footer-partner">
                 <h2>Partner</h2>
-                <a href="https://bsitco.de/" target="_blank" rel="noopener">BSITCO GmbH</a>
-                <img src="assets/img/BSITCO-logo.png" alt="BSITCO GmbH">
-                <span>BSITCO GmbH</span>
+                <a href="https://bsitco.de/" target="_blank" rel="noopener" class="partner-link">
+                    <img src="assets/img/BSITCO-logo.png" alt="BSITCO GmbH">
+                    <span>BSITCO GmbH</span>
+                </a>
             </div>
 
             <div class="footer-legal">
