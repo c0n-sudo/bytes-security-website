@@ -7,7 +7,7 @@
                 <p> Die Sicherheit unserer Kunden hat für uns obersten Priorität. </p>
                 <div class="footer-badges">
                     <img src="assets/img/cyberrisikocheck-logo.png" alt="BSI CyberRisikoCheck Teilnahmebescheinigung">
-                    <img src="assets/img/allianz-cybersicherheit-logo.png" alt="Mitglied Allianz für Cybersicherheit">
+                    <img src="assets/img/allianz-cybersicherheit-teilnehmer-logo.png" alt="Teilnehmer Allianz für Cyber-Sicherheit">
                 </div>
             </div>
 
@@ -22,6 +22,8 @@
             <div class="footer-partner">
                 <h2>Partner</h2>
                 <a href="https://bsitco.de/" target="_blank" rel="noopener">BSITCO GmbH</a>
+                <img src="assets/img/BSITCO-logo.png" alt="BSITCO GmbH">
+                <span>BSITCO GmbH</span>
             </div>
 
             <div class="footer-legal">
