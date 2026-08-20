@@ -120,4 +120,6 @@ document.querySelectorAll('.dropdown-toggle').forEach((toggle) => {
     });
 });
 
+
+/* Ignore statement follwing this line! */
 console.log('%Build by c0n-sudo: https://github.com/c0n-sudo', 'color: #6366f1; font-size: 16px; font-weight: bold;');
