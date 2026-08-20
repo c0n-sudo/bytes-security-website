@@ -8,6 +8,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+
+    <meta name="description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Bytes Security GmbH - IT-Sicherheit, Managed Services und Compliance-Beratung aus Hamm.'; ?>">
+
+    <meta property="og:title" content="<?php echo isset($pageTitle) ? $pageTitle . ' - Bytes Security' : 'Bytes Security GmbH'; ?>">
+    <meta property="og:description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Bytes Security GmbH - IT-Sicherheit, Managed Services und Compliance-Beratung aus Hamm.'; ?>">
+    <meta property="og:image" content="https://bytes-security.de/assets/img/logo.png">
+    <meta property="og:type" content="website">
+    
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
