@@ -83,6 +83,14 @@ if (mainNav && navHighlight) {
     }
 }
 
+const heroBg = document.querySelector('.hero-bg');
+if (heroBg) {
+    window.addEventListener('scroll', () => {
+        const offset = window.scrollY * 0.15;
+        heroBg.style.transform = `translateY(${offset}px)`;
+    });
+}
+
 const siteHeader = document.querySelector('.site-header');
 if (siteHeader) {
     window.addEventListener('scroll', () => {

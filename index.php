@@ -4,6 +4,7 @@ include 'includes/header.php';
 ?>
 
 <section class="hero">
+    <div class="hero-bg"></div>
     <h1> Die Sicherheit unserer Kunden hat für uns obersten Priorität. </h1>
     <p>
         Wir unterstützen Unternehmen wie Ihres dabei, ihre IT-Infrastruktur im Bereich der Sicherheit zu optimieren. Wir verfügen über das notwendige Know-how und haben bereits zahlreichen Unternehmen erfolgreich geholfen. Wenn Sie erfahren möchten, wie Sie die Sicherheit in Ihrem Unternehmen weiter verbessern können, nehmen Sie gerne Kontakt mit uns auf. Wir freuen uns darauf, Ihnen zu helfen und gemeinsam die besten Lösungen für Ihre individuellen Anforderungen zu finden.
@@ -31,6 +32,7 @@ include 'includes/header.php';
                 Wir werfen einen neutralen Blick auf Ihre IT-Struktur. Unsere Prüfung zeigt, ob alles nach bewährten Standards aufgebaut ist. Daraufhin erstellen wir einen Bericht und erklären unsere Einschätzung. Wir nehmen das Netzwerk, die Firewall-Einstellungen, die Benutzerauthentifizierung, Server und Backups genau unter die Lupe. Dabei geht es um klare Informationen. Wir finden Sicherheitslücken und zeigen auf, wo es Schwachstellen gibt, die bei einem Angriff ausgenutzt werden könnten. Zusätzlich geben wir Tipps zur Optimierung Ihrer bestehenden Umgebung. Das beste Ergebnis: Sie erhalten die Gewissheit, dass Ihre IT-Infrastruktur sicher ist. Möchten Sie uns ausprobieren? Sie können gerne eine kostenlose Sicherheitsüberprüfung anfordern.
             </p>
         </article>
+    </div>
 </section>
 
 <section id="schulungen" class="content">
