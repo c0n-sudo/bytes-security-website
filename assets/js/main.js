@@ -119,3 +119,5 @@ document.querySelectorAll('.dropdown-toggle').forEach((toggle) => {
         toggle.setAttribute('aria-expanded', isOpen)
     });
 });
+
+console.log('%Build by c0n-sudo', 'color: #6366f1; font-size: 16px; font-weight: bold;');
