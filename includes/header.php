@@ -16,7 +16,7 @@
     <meta property="og:description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Bytes Security GmbH - IT-Sicherheit, Managed Services und Compliance-Beratung aus Hamm.'; ?>">
     <meta property="og:image" content="https://bytes-security.de/assets/img/logo.png">
     <meta property="og:type" content="website">
-    
+
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -44,6 +44,11 @@
                             <li><a href="cybersecurity.php">Cybersecurity</a></li>
                             <li><a href="managed-services.php">Managed Services</a></li>
                             <li><a href="bsi-konformitaet.php">BSI Konformität</a></li>
+                            <li><a href="nis2-beratung.php">NIS2-Beratung</a></li>
+                            <li><a href="zugangsverwaltung.php">Zugans- und Nutzerverwaltung</a></li>
+                            <li><a href="it-notfallmanagement.php">IT-Notfallmanagement</a></li>
+                            <li><a href="it-awareness-schulungen.php">IT-Awareness-Schulungen</a></li>
+                            <li><a href="soc-beratung.php">SOC-Beratung</a></li>
                         </ul>
                     </li>
                     <li><a href="index.php#services">Lösungen</a></li>

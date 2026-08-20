@@ -22,6 +22,21 @@ include 'includes/header.php';
     <a href="cloud-security.php" class="solution-card">
         <h3>Cloud Security für Microsoft</h3>
     </a>
+    <a href="nis2-beratung.php" class="solution-card">
+        <h3>NIS2-Beratung</h3>
+    </a>
+    <a href="zugangsverwaltung.php" class="solution-card">
+        <h3>Zugangs- und Nutzerverwaltung</h3>
+    </a>
+    <a href="it-notfallmanagement.php" class="solution-card">
+        <h3>IT-Notfallmanagement></h3>
+    </a>
+    <a href="it-awareness-schulungen.php" class="solution-card">
+        <h3>IT-Awareness-Schulungen</h3>
+    </a>
+    <a href="soc-beratung.php" class="solution-card">
+        <h3>SOC-Beratung</h3>
+    </a>
 </section>
 
 <?php include 'includes/footer.php'; ?>
