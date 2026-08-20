@@ -120,4 +120,4 @@ document.querySelectorAll('.dropdown-toggle').forEach((toggle) => {
     });
 });
 
-console.log('%Build by c0n-sudo', 'color: #6366f1; font-size: 16px; font-weight: bold;');
+console.log('%Build by c0n-sudo: https://github.com/c0n-sudo', 'color: #6366f1; font-size: 16px; font-weight: bold;');
