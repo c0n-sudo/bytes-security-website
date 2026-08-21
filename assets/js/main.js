@@ -91,6 +91,15 @@ if (heroBg) {
     });
 }
 
+const heroNetwork = document.querySelector('.hero-network');
+if (heroNetwork) {
+    window.addEventListener('load', () => {
+        setTimeout(() => {
+            heroNetwork.classList.add('is-visible');
+        }, 300);
+    });
+}
+
 const siteHeader = document.querySelector('.site-header');
 if (siteHeader) {
     window.addEventListener('scroll', () => {

@@ -5,6 +5,33 @@ include 'includes/header.php';
 
 <section class="hero">
     <div class="hero-bg"></div>
+    <svg class="hero-network" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid meet">
+        <line x="30" y1="40" x2="120" y2="20" stroke="#6366f1" stroke-width="1"/>
+        <line x="120" y1="20" x2="200" y2="70" stroke="#6366f1" stroke-width="1"/>
+        <line x="200" y1="70" x2="280" y2="40" stroke="#6366f1" stroke-width="1"/>
+        <line x="280" y1="40" x2="340" y2="110" stroke="#6366f1" stroke-width="1"/>
+        <line x="200" y1="70" x2="180" y2="160" stroke="#6366f1" stroke-width="1"/>
+        <line x="80" y1="140" x2="180" y2="160" stroke="#6366f1" stroke-width="1"/>
+        <line x="180" y1="160" x2="260" y2="180" stroke="#6366f1" stroke-width="1"/>
+        <line x="260" y1="180" x2="320" y2="240" stroke="#6366f1" stroke-width="1"/>
+        <line x="80" y1="140" x2="100" y2="260" stroke="#6366f1" stroke-width="1"/>
+        <line x="100" y1="260" x2="220" y2="280" stroke="#6366f1" stroke-width="1"/>
+        <line x="220" y1="280" x2="320" y2="240" stroke="#6366f1" stroke-width="1"/>
+        <line x="100" y1="260" x2="60" y2="320" stroke="#6366f1" stroke-width="1"/>
+        <circle cx="30" cy="40" r="3" fill="#6366f1"/>
+        <circle cx="120" cy="20" r="4" fill="#6366f1"/>
+        <circle cx="200" cy="70" r="4" fill="#6366f1"/>
+        <circle cx="280" cy="40" r="3" fill="#6366f1"/>
+        <circle cx="340" cy="110" r="3" fill="#6366f1"/>
+        <circle cx="80" cy="140" r="4" fill="#6366f1"/>
+        <circle cx="180" cy="160" r="4" fill="#6366f1"/>
+        <circle cx="260" cy="180" r="3" fill="#6366f1"/>
+        <circle cx="320" cy="240" r="4" fill="#6366f1"/>
+        <circle cx="100" cy="260" r="4" fill="#6366f1"/>
+        <circle cx="220" cy="280" r="3" fill="#6366f1"/>
+        <circle cx="60" cy="320" r="3" fill="#6366f1"/>
+    </svg>
+    <p class="eyebrow">IT-Sicherheit aus Hamm</p>
     <h1> Die Sicherheit unserer Kunden hat für uns obersten Priorität. </h1>
     <p>
         Wir unterstützen Unternehmen wie Ihres dabei, ihre IT-Infrastruktur im Bereich der Sicherheit zu optimieren. Wir verfügen über das notwendige Know-how und haben bereits zahlreichen Unternehmen erfolgreich geholfen. Wenn Sie erfahren möchten, wie Sie die Sicherheit in Ihrem Unternehmen weiter verbessern können, nehmen Sie gerne Kontakt mit uns auf. Wir freuen uns darauf, Ihnen zu helfen und gemeinsam die besten Lösungen für Ihre individuellen Anforderungen zu finden.
