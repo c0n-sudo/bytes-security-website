@@ -9,7 +9,7 @@ include 'includes/header.php';
 
 <section class="booking.section">
     <iframe
-        src="https://outlook.office.com/bookwithme/user/23536829307541a7bbb33e3d5b8fc4e4@bytes-security.de/meetingtype/OtxWSuK5pUmCLcj2SO4nLg2?anonymous&ismsaljsauthenabled&ep=mlink"
+        src="https://outlook.office.com/book/BytesSecurityGmbH1@bsitco.de/?ismsaljsauthenabled"
         width="100%"
         height="800"
         style="border: none;"

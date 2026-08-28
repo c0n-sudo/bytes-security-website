@@ -30,7 +30,7 @@ include 'includes/header.php';
         <circle cx="100" cy="260" r="4" fill="#6366f1"/>
         <circle cx="220" cy="280" r="3" fill="#6366f1"/>
         <circle cx="60" cy="320" r="3" fill="#6366f1"/>
-    </svg>
+    </svg> 
     <p class="eyebrow">IT-Sicherheit aus Hamm</p>
     <h1> Die Sicherheit unserer Kunden hat für uns obersten Priorität. </h1>
     <p>
