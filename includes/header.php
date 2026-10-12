@@ -1,6 +1,6 @@
 <?php require_once __DIR__ . '/i18n.php'; ?>
 <!DOCTYPE html>
-<html lang="<?=  $lang ?>">
+<html lang="<?= $lang ?>">
 <head>
     <meta charset="UTF-8">
     <script>document.documentElement.classList.add('js');</script>
@@ -24,7 +24,7 @@
 
     <header class="site-header">
         <div class="header-inner">
-            <a href="index.php" class="logo">
+            <a href="<?= url('index.php') ?>" class="logo">
                 <img src="assets/img/logo.png" alt="Bytes Security">
             </a>
 
@@ -35,50 +35,50 @@
             </button>
 
             <div class="nav-wrapper">
-            <nav class="main-nav">
-                <span class="nav-highlight"></span>
-                <ul>
-                    <li class="has-dropdown">
-                        <a href="#">Dienstleistungen</a>
-                        <button class="dropdown-toggle" aria-label="Untermenü öffnen" aria-expanded="false"></button>
-                        <ul class="dropdown">
-                            <li><a href="cybersecurity.php">Cybersecurity</a></li>
-                            <li><a href="managed-services.php">Managed Services</a></li>
-                            <li><a href="bsi-konformitaet.php">BSI Konformität</a></li>
-                            <li><a href="nis2-beratung.php">NIS2-Beratung</a></li>
-                            <li><a href="zugangsverwaltung.php">Zugans- und Nutzerverwaltung</a></li>
-                            <li><a href="it-notfallmanagement.php">IT-Notfallmanagement</a></li>
-                            <li><a href="it-awareness-schulungen.php">IT-Awareness-Schulungen</a></li>
-                            <li><a href="soc-beratung.php">SOC-Beratung</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="index.php#services">Lösungen</a></li>
-                    <li><a href="index.php#schulungen">Schulungen</a></li>
-                    <li><a href="index.php#geschaeftsmodell">Geschäftsmodell</a></li>
-                    <li><a href="#footer-kontakt">Kontakt</a></li>
-                    <li class="has-dropdown">
-                        <a href="team.php">Team</a>
-                        <button class="dropdown-toggle" aria-label="Untermenü öffnen" aria-expanded="false"></button>
-                        <ul class="dropdown">
-                            <li><a href="team.php">Unser Team</a></li>
-                            <li><a href="rueckblick.php">Bytes Security Rückblick</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-            
-            <span class="nav-divider"></span>
-            <a href="kontakt.php" class="btn-cta">Anfrage stellen</a>
-            <a href="termin.php" class="btn-cta">Termin buchen</a>
+                <nav class="main-nav">
+                    <span class="nav-highlight"></span>
+                    <ul>
+                        <li class="has-dropdown">
+                            <a href="#"><?= t('nav.services') ?></a>
+                            <button class="dropdown-toggle" aria-label="Untermenü öffnen" aria-expanded="false"></button>
+                            <ul class="dropdown">
+                                <li><a href="<?= url('cybersecurity.php') ?>"><?= t('nav.cybersecurity') ?></a></li>
+                                <li><a href="<?= url('managed-services.php') ?>"><?= t('nav.managed') ?></a></li>
+                                <li><a href="<?= url('bsi-konformitaet.php') ?>"><?= t('nav.bsi') ?></a></li>
+                                <li><a href="<?= url('nis2-beratung.php') ?>"><?= t('nav.nis2') ?></a></li>
+                                <li><a href="<?= url('zugangsverwaltung.php') ?>"><?= t('nav.access') ?></a></li>
+                                <li><a href="<?= url('it-notfallmanagement.php') ?>"><?= t('nav.emergency') ?></a></li>
+                                <li><a href="<?= url('it-awareness-schulungen.php') ?>"><?= t('nav.awareness') ?></a></li>
+                                <li><a href="<?= url('soc-beratung.php') ?>"><?= t('nav.soc') ?></a></li>
+                            </ul>
+                        </li>
+                        <li><a href="<?= url('index.php#services') ?>"><?= t('nav.solutions') ?></a></li>
+                        <li><a href="<?= url('index.php#schulungen') ?>"><?= t('nav.trainings') ?></a></li>
+                        <li><a href="<?= url('index.php#geschaeftsmodell') ?>"><?= t('nav.business') ?></a></li>
+                        <li><a href="#footer-kontakt"><?= t('nav.contact') ?></a></li>
+                        <li class="has-dropdown">
+                            <a href="<?= url('team.php') ?>"><?= t('nav.team') ?></a>
+                            <button class="dropdown-toggle" aria-label="Untermenü öffnen" aria-expanded="false"></button>
+                            <ul class="dropdown">
+                                <li><a href="<?= url('team.php') ?>"><?= t('nav.team_about') ?></a></li>
+                                <li><a href="<?= url('rueckblick.php') ?>"><?= t('nav.review') ?></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
 
-            <div class="lang-switch">
-                <?php foreach (SUPPORTED_LANGS as $code): ?>
-                    <a href="?lang=<?= $code ?>"
-                    class="<?= $code === $lang ? 'active' : '' ?>">
-                    <?= strtoupper($code) ?>
-                </a>
-                <?php endforeach; ?>
-            </div>
+                <span class="nav-divider"></span>
+                <a href="<?= url('kontakt.php') ?>" class="btn-cta"><?= t('btn.inquiry') ?></a>
+                <a href="<?= url('termin.php') ?>" class="btn-cta"><?= t('btn.booking') ?></a>
+
+                <div class="lang-switch">
+                    <?php foreach (SUPPORTED_LANGS as $code): ?>
+                        <a href="?lang=<?= $code ?>"
+                           class="<?= $code === $lang ? 'active' : '' ?>">
+                            <?= strtoupper($code) ?>
+                        </a>
+                    <?php endforeach; ?>
+                </div>
             </div>
         </div>
     </header>
