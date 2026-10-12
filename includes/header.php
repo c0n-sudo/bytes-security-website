@@ -1,5 +1,6 @@
+<?php require_once __DIR__ . '/i18n.php'; ?>
 <!DOCTYPE html>
-<html lang="de">
+<html lang="<?=  $lang ?>">
 <head>
     <meta charset="UTF-8">
     <script>document.documentElement.classList.add('js');</script>
@@ -69,6 +70,15 @@
             <span class="nav-divider"></span>
             <a href="kontakt.php" class="btn-cta">Anfrage stellen</a>
             <a href="termin.php" class="btn-cta">Termin buchen</a>
+
+            <div class="lang-switch">
+                <?php foreach (SUPPORTED_LANGS as $code): ?>
+                    <a href="?lang=<?= $code ?>"
+                    class="<?= $code === $lang ? 'active' : '' ?>">
+                    <?= strtoupper($code) ?>
+                </a>
+                <?php endforeach; ?>
+            </div>
             </div>
         </div>
     </header>

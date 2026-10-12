@@ -842,6 +842,21 @@ body {
     width: auto;
 }
 
+.lang-switch {
+    display: flex;
+    gap: var(--space-1);
+    font-size: 0.875rem;
+}
+
+.lang-switch a {
+    opacity: 0.6;
+}
+
+.lang-switch a.active {
+    opacity: 1;
+    font-weight: 600;
+}
+
 /* 
 01000010 01110101 01101001 01101100 01100100 00100000 01100010 01111001 001000000
 01100011 00110000 01101110 00101101 01110011 01110101 01100100 01101111 00111010 00100000
