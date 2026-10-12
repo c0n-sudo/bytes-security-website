@@ -31,7 +31,7 @@ include 'includes/header.php';
         <circle cx="220" cy="280" r="3" fill="#6366f1"/>
         <circle cx="60" cy="320" r="3" fill="#6366f1"/>
     </svg> 
-    <p class="eyebrow">IT-Sicherheit aus Hamm</p>
+    <p class="eyebrow"><?= t('hero.eyebrow') ?></p>
     <h1> Die Sicherheit unserer Kunden hat für uns obersten Priorität. </h1>
     <p>
         Wir unterstützen Unternehmen wie Ihres dabei, ihre IT-Infrastruktur im Bereich der Sicherheit zu optimieren. Wir verfügen über das notwendige Know-how und haben bereits zahlreichen Unternehmen erfolgreich geholfen. Wenn Sie erfahren möchten, wie Sie die Sicherheit in Ihrem Unternehmen weiter verbessern können, nehmen Sie gerne Kontakt mit uns auf. Wir freuen uns darauf, Ihnen zu helfen und gemeinsam die besten Lösungen für Ihre individuellen Anforderungen zu finden.
