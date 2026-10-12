@@ -1,3 +1,21 @@
 {
-    "hero.eyebrow": "IT security from Hamm"
+    "hero.eyebrow": "IT Security from Hamm",
+    "nav.services": "Services",
+    "nav.cybersecurity": "Cybersecurity",
+    "nav.managed": "Managed Services",
+    "nav.bsi:": "BSI Compliance",
+    "nav.nis2": "NIS2 Consulting",
+    "nav.access": "Access and User Management",
+    "nav.emergency": "IT Emergency Management",
+    "nav.awareness": "IT Awareness Training",
+    "nav.soc": "SOC Consulting",
+    "nav.solutions": "Solutions",
+    "nav.trainings": "Training Courses",
+    "nav.business": "Business Model",
+    "nav.contact": "Contact",
+    "nav.team": "Team",
+    "nav.team_about": "Our Team",
+    "nav.review": "Bytes Security Review",
+    "btn.inquiry": "Make an Inquiry",
+    "btn.booking": "Book an Appointment"
 }
