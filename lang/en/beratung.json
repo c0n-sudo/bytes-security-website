@@ -1,0 +1,41 @@
+{
+    "nis.intro": "The European NIS2 Directive imposes new and in some cases strict IT security requirements on many companies. We help you gain clarity about your situation and tackle the necessary steps in a structured way.",
+    "nis.s1_title": "Assessing Whether You Are Affected",
+    "nis.s1_text": "First, we work with you to clarify whether and to what extent your company falls under the NIS2 regulations - as the basis for all further steps.",
+    "nis.s2_title": "Identifying Risks",
+    "nis.s2_text": "We analyze your existing IT security situation and show where action is needed to meet the requirements of the directive.",
+    "nis.s3_title": "Supporting Implementation",
+    "nis.s3_text": "From monitoring concepts and emergency processes to securing your supply chain - we advise you on putting the specific requirements into practice step by step.",
+
+    "acc.intro": "Who may access what largely determines the security of your data. We advise you on structuring access rights clearly and limiting them to a sensible level.",
+    "acc.s1_title": "Reviewing Existing Permissions",
+    "acc.s1_text": "Together with you, we take a look at your current permission and role concepts - for example in Active Directory, on data storage or in business applications - and show where adjustments are needed.",
+    "acc.s2_title": "Multi-Factor Authentication Consulting",
+    "acc.s2_text": "We explain the options offered by multi-factor authentication and modern passkey methods and advise you on how to introduce them sensibly into your existing environment.",
+    "acc.s3_title": "Concepts for Microsoft 365",
+    "acc.s3_text": "For the use of SharePoint, Teams and OneDrive, we advise you on practical access concepts that combine secure handling with easy collaboration.",
+
+    "emg.intro": "An IT outage usually catches companies unprepared - often with noticeable consequences for day-to-day operations. We advise you on preparing specifically for such situations, so that clear procedures take over instead of uncertainty when it matters.",
+    "emg.s1_title": "Assessing Your Emergency Preparedness",
+    "emg.s1_text": "Together, we review how well your company is currently prepared for IT outages or security incidents - from existing backup routines to the responsibilities in place in an emergency. From this, we derive concrete recommendations for action.",
+    "emg.s2_title": "Designing an Emergency Plan",
+    "emg.s2_text": "We support you in creating an individual emergency manual: clearly defined processes, responsibilities and communication channels, so that your team stays able to act instead of having to improvise.",
+    "emg.s3_title": "Restoring Business Operations",
+    "emg.s3_text": "Beyond pure data backup, we advise you on how your company can quickly become operational again after a major IT incident - with a particular focus on the systems and processes that are critical to you.",
+
+    "awr.intro": "Even the best technical protection is of little use if employees do not recognize dangers in everyday life. We advise you on how your team can be made aware of IT security risks in a targeted way.",
+    "awr.s1_title": "Individual Usage Policies",
+    "awr.s1_text": "Together with you, we develop guidelines for the secure use of IT systems - tailored to the processes in your company.",
+    "awr.s2_title": "Consulting on Training Formats",
+    "awr.s2_text": "We show you ways in which IT security training can be delivered in-house or digitally, including approaches for regular refreshers.",
+    "awr.s3_title": "Awareness of Phishing and Social Engineering",
+    "awr.s3_text": "We advise you on how typical attack attempts such as phishing emails can be made recognizable to your team, so that your employees react correctly when it matters.",
+
+    "soc.intro": "A Security Operations Center (SOC) bundles the continuous monitoring of your IT systems in one central place. We advise you on whether and how such an approach fits your company.",
+    "soc.s1_title": "Assessing Your Needs",
+    "soc.s1_text": "Together, we examine to what extent continuous monitoring makes sense for your company - depending on your IT landscape, your industry and your individual risks.",
+    "soc.s2_title": "Designing the Monitoring",
+    "soc.s2_text": "We advise you on which systems and data sources are suitable for monitoring and how suspicious activity can be detected reliably.",
+    "soc.s3_title": "Integration with Your Existing IT",
+    "soc.s3_text": "We show you how a SOC approach can be integrated into your existing infrastructure without disrupting ongoing operations."
+}

@@ -1,29 +1,33 @@
 <?php
 $pageTitle = "IT-Notfallmanagement";
-$pageDescription = "Beratung zu IT-Notfallplänen, Backup- Strategien und Business Continuity für Ihr Unternehmen.";
+$pageDescription = "Beratung zu IT-Notfallplänen, Backup-Strategien und Business Continuity für Ihr Unternehmen.";
 include 'includes/header.php';
 ?>
 
 <section class="page-hero">
-    <p class="breadcrumb">Cybersecurity &middot; Details zu den Dienstleistungen</p>
-    <h1>IT-Notfallmanagement</h1>
+    <p class="breadcrumb"><?= t('nav.cybersecurity') ?> &middot; <?= t('cyber.details') ?></p>
+    <h1><?= t('nav.emergency') ?></h1>
 </section>
+
 <section class="content">
-    <h2>IT-Notfallmanagement</h2>
+    <h2><?= t('nav.emergency') ?></h2>
     <p>
-        Ein IT-Ausfall trifft Unternehmen meist unvorbereitet - oft mit spürbaren Folgen für den laufenden Betrieb. Wir beraten Sie dabei, sich gezielt auf solche Situationen vorzubereiten, damit im Ernstfall klare Abläufe statt Unsicherheit greifen.
+        <?= t('emg.intro') ?>
     </p>
-    <h3>Bestandaufnahme Ihrer Notfallvorsorge</h3>
+
+    <h3><?= t('emg.s1_title') ?></h3>
     <p>
-        Gemeinsam prüfen wir, wie gut Ihr Unternehmen aktuell für IT-Ausfälle oder Sicherheitsvorfälle aufgestellt ist - von bestehenden Backup-Routinen bis zu vorhandenen Zuständigkeiten im Ernstfall. Daraus leiten wir konkrete Handlungsempfehlungen ab.
+        <?= t('emg.s1_text') ?>
     </p>
-    <h3>Konzeption eines Notfallplans</h3>
+
+    <h3><?= t('emg.s2_title') ?></h3>
     <p>
-        Wir unterstützen Sie bei der Erstellung eines individuellen Notfallhandbuchs: klar definierte Prozesse, Verantwortlichkeiten und Kommunikationswege, damit Ihr Team im Ernstfall handlungsfähig bleibt statt improvisieren zu müssen.
+        <?= t('emg.s2_text') ?>
     </p>
-    <h3>Wiederanlauf des Geschäftsbetriebs</h3>
+
+    <h3><?= t('emg.s3_title') ?></h3>
     <p>
-        Über die reine Datensicherung hinaus beraten wir Sie dazu, wie Ihr Unternehmen auch nach einem größeren IT-Vorfall zügig wieder arbeitsfähig wird - mit besonderem Blick auf die für Sie kritischen Systeme und Prozesse.
+        <?= t('emg.s3_text') ?>
     </p>
 </section>
 

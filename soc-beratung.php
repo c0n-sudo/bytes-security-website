@@ -5,24 +5,29 @@ include 'includes/header.php';
 ?>
 
 <section class="page-hero">
-    <p class="breadcrumb">Cybersecurity &middot; Details zu den Dienstleistungen</p>
+    <p class="breadcrumb"><?= t('nav.cybersecurity') ?> &middot; <?= t('cyber.details') ?></p>
+    <h1><?= t('nav.soc') ?></h1>
 </section>
+
 <section class="content">
-    <h2>SOC-Beratung</h2>
+    <h2><?= t('nav.soc') ?></h2>
     <p>
-        Ein Security Operations Center bündelt die kontinuierliche Überwachung Ihrer IT-Systeme an zentraler Stelle. Wir beraten Sie dazu, ob und wie ein solcher Ansatz zu Ihrem Unternehmen passt.
+        <?= t('soc.intro') ?>
     </p>
-    <h3>Bedarf einschätzen</h3>
+
+    <h3><?= t('soc.s1_title') ?></h3>
     <p>
-        Gemeinsam prüfen wir, in welchem Umfang eine kontinuierliche Überwachung für Ihr Unternehmen sinnvoll ist - abhängig von Ihrer IT-Landschaft, Ihrer Branche und Ihren individuellen Risiken.
+        <?= t('soc.s1_text') ?>
     </p>
-    <h3>Konzeption der Überwachung</h3>
+
+    <h3><?= t('soc.s2_title') ?></h3>
     <p>
-        Wir beraten Sie dazu, welche Systeme und Datenquellen sich für ein Monitoring eignen und wie sich verdächtige Aktivitäten zuverlässig erkennen lassen.
+        <?= t('soc.s2_text') ?>
     </p>
-    <h3>Anbindung an Ihre bestehende IT</h3>
+
+    <h3><?= t('soc.s3_title') ?></h3>
     <p>
-        Wir zeigen Ihnen auf, wie sich ein SOC-Ansatz in Ihre vorhandene Infrastruktur einfügen lässt, ohne den laufenden Betrieb zu stören.
+        <?= t('soc.s3_text') ?>
     </p>
 </section>
 

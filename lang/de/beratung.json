@@ -1,0 +1,41 @@
+{
+    "nis.intro": "Die europäische NIS2-Richtlinie stellt neue, teils strenge Anforderungen an die IT-Sicherheit vieler Unternehmen. Wir helfen Ihnen, Klarheit über Ihre Situation zu gewinnen und die nötigen Schritte strukturiert anzugehen.",
+    "nis.s1_title": "Betroffenheit einschätzen",
+    "nis.s1_text": "Zunächst klären wir gemeinsam mit Ihnen, ob und in welchem Umfang Ihr Unternehmen unter die NIS2-Regelungen fällt - als Grundlage für alle weiteren Schritte.",
+    "nis.s2_title": "Risiken identifizieren",
+    "nis.s2_text": "Wir analysieren Ihre bestehende IT-Sicherheitslage und zeigen auf, an welchen Stellen Handlungsbedarf besteht, um die Anforderungen der Richtlinie zu erfüllen.",
+    "nis.s3_title": "Umsetzung begleiten",
+    "nis.s3_text": "Von Monitoring-Konzepten über Notfallprozesse bis zur Absicherung Ihrer Lieferkette - wir beraten Sie dabei, die konkreten Vorgaben Schritt für Schritt in die Praxis umzusetzen.",
+
+    "acc.intro": "Wer worauf zugreifen darf, entscheidet maßgeblich über die Sicherheit Ihrer Daten. Wir beraten Sie dabei, Zugriffsrechte klar zu strukturieren und auf ein sinnvolles Maß zu begrenzen.",
+    "acc.s1_title": "Bestehende Rechte prüfen",
+    "acc.s1_text": "Wir werfen gemeinsam mit Ihnen einen Blick auf Ihre aktuellen Rechte- und Rollenkonzepte - etwa in Active Directory, auf Datenspeichern oder in Fachanwendungen - und zeigen auf, wo Anpassungsbedarf besteht.",
+    "acc.s2_title": "Beratung zu Multi-Faktor-Authentifizierung",
+    "acc.s2_text": "Wir erläutern Ihnen die Möglichkeiten von Multi-Faktor-Authentifizierung und modernen Passkey-Verfahren und beraten Sie, wie sich diese sinnvoll in Ihre bestehende Umgebung einführen lassen.",
+    "acc.s3_title": "Konzepte für Microsoft 365",
+    "acc.s3_text": "Für den Einsatz von SharePoint, Teams und OneDrive beraten wir Sie zu praktikablen Zugriffskonzepten, die sicheren Umgang und einfache Zusammenarbeit miteinander vereinen.",
+
+    "emg.intro": "Ein IT-Ausfall trifft Unternehmen meist unvorbereitet - oft mit spürbaren Folgen für den laufenden Betrieb. Wir beraten Sie dabei, sich gezielt auf solche Situationen vorzubereiten, damit im Ernstfall klare Abläufe statt Unsicherheit greifen.",
+    "emg.s1_title": "Bestandsaufnahme Ihrer Notfallvorsorge",
+    "emg.s1_text": "Gemeinsam prüfen wir, wie gut Ihr Unternehmen aktuell für IT-Ausfälle oder Sicherheitsvorfälle aufgestellt ist - von bestehenden Backup-Routinen bis zu vorhandenen Zuständigkeiten im Ernstfall. Daraus leiten wir konkrete Handlungsempfehlungen ab.",
+    "emg.s2_title": "Konzeption eines Notfallplans",
+    "emg.s2_text": "Wir unterstützen Sie bei der Erstellung eines individuellen Notfallhandbuchs: klar definierte Prozesse, Verantwortlichkeiten und Kommunikationswege, damit Ihr Team im Ernstfall handlungsfähig bleibt statt improvisieren zu müssen.",
+    "emg.s3_title": "Wiederanlauf des Geschäftsbetriebs",
+    "emg.s3_text": "Über die reine Datensicherung hinaus beraten wir Sie dazu, wie Ihr Unternehmen auch nach einem größeren IT-Vorfall zügig wieder arbeitsfähig wird - mit besonderem Blick auf die für Sie kritischen Systeme und Prozesse.",
+
+    "awr.intro": "Die beste technische Absicherung nützt wenig, wenn Mitarbeitende Gefahren im Alltag nicht erkennen. Wir beraten Sie dazu, wie sich Ihr Team gezielt für IT-Sicherheitsrisiken sensibilisieren lässt.",
+    "awr.s1_title": "Individuelle Nutzungsrichtlinien",
+    "awr.s1_text": "Gemeinsam mit Ihnen entwickeln wir Vorgaben für den sicheren Umgang mit IT-Systemen - zugeschnitten auf die Abläufe in Ihrem Unternehmen.",
+    "awr.s2_title": "Beratung zu Schulungsformaten",
+    "awr.s2_text": "Wir zeigen Ihnen Möglichkeiten auf, wie Schulungen zu IT-Sicherheit bei Ihnen im Haus oder digital umgesetzt werden können, inklusive Ansätzen zur regelmäßigen Auffrischung.",
+    "awr.s3_title": "Sensibilisierung für Phishing und Social Engineering",
+    "awr.s3_text": "Wir beraten Sie, wie sich typische Angriffsversuche wie Phishing-Mails im Team erkennbar machen lassen, damit Ihre Mitarbeitenden im Ernstfall richtig reagieren.",
+
+    "soc.intro": "Ein Security Operations Center bündelt die kontinuierliche Überwachung Ihrer IT-Systeme an zentraler Stelle. Wir beraten Sie dazu, ob und wie ein solcher Ansatz zu Ihrem Unternehmen passt.",
+    "soc.s1_title": "Bedarf einschätzen",
+    "soc.s1_text": "Gemeinsam prüfen wir, in welchem Umfang eine kontinuierliche Überwachung für Ihr Unternehmen sinnvoll ist - abhängig von Ihrer IT-Landschaft, Ihrer Branche und Ihren individuellen Risiken.",
+    "soc.s2_title": "Konzeption der Überwachung",
+    "soc.s2_text": "Wir beraten Sie dazu, welche Systeme und Datenquellen sich für ein Monitoring eignen und wie sich verdächtige Aktivitäten zuverlässig erkennen lassen.",
+    "soc.s3_title": "Anbindung an Ihre bestehende IT",
+    "soc.s3_text": "Wir zeigen Ihnen auf, wie sich ein SOC-Ansatz in Ihre vorhandene Infrastruktur einfügen lässt, ohne den laufenden Betrieb zu stören."
+}
