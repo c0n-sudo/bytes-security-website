@@ -4,33 +4,32 @@ include 'includes/header.php';
 ?>
 
 <section class="page-hero">
-    <h1>Kontakt</h1>
+    <h1><?= t('nav.contact') ?></h1>
 </section>
 
 <section id="kontakt" class="content">
     <p>
-        Nehmen Sie gerne Kontakt mit uns auf - wir melden uns schnellstmöglich bei Ihnen zurück.
+        <?= t('contact.intro') ?>
     </p>
-
 
     <form action="php-mails.php" method="POST" class="contact-form">
 
-        <label for ="email">Name</label>
+        <label for="name"><?= t('contact.name') ?></label>
         <input type="text" id="name" name="name" required>
 
-        <label for="email">E-Mail</label>
+        <label for="email"><?= t('contact.email') ?></label>
         <input type="email" id="email" name="email" required>
 
-        <label for="phone">Telefon</label>
+        <label for="phone"><?= t('contact.phone') ?></label>
         <input type="tel" id="phone" name="phone" required>
 
-        <label for="subject">Betreff</label>
+        <label for="subject"><?= t('contact.subject') ?></label>
         <input type="text" id="subject" name="subject" required>
 
-        <label for="message">Nachricht</label>
+        <label for="message"><?= t('contact.message') ?></label>
         <textarea id="message" name="message" rows="6" required></textarea>
 
-        <button type="submit">Nachricht senden</button>
+        <button type="submit"><?= t('contact.submit') ?></button>
 
     </form>
 </section>

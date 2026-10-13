@@ -1,0 +1,15 @@
+{
+    "team.breadcrumb": "Home / Team",
+
+    "team.thomas_role": "Founder & Managing Director",
+    "team.thomas_bio": "Thomas Karzelek is the founder and managing director of Bytes Security GmbH. As a senior IT consultant with many years of experience, he has led numerous complex IT and integration projects for the German Armed Forces, public administration and industry - with a focus on secure infrastructures, IT baseline protection (IT-Grundschutz) and authentication solutions. He is a certified PRINCE2 Agile Practitioner and IT security expert, and in 2025 took part in the BSI training on the CyberRisikoCheck according to DIN SPEC 27076.",
+
+    "team.lars_role": "Microsoft Administrator & IT Consultant",
+    "team.lars_bio": "Lars Kasimir is a Microsoft administrator, IT system engineer and IT consultant at Bytes Security GmbH. With more than ten years of experience in complex Microsoft system landscapes, he has supported numerous projects for customers such as Deutsche Rentenversicherung Bund and Thales Deutschland - with a focus on Active Directory, Office 365 and print and scan solutions in second- and third-level support. He is a Microsoft Certified Azure Administrator Associate and a Citrix Certified Administrator, and brings solid know-how in migration, rollout and design.",
+
+    "team.tobias_role": "IT Consultant",
+    "team.tobias_bio": "Tobias Rottmann is an IT consultant at Bytes Security GmbH and BSITCO GmbH. As an IT specialist with solid experience in cybersecurity, PCI DSS compliance and system administration, he has supported international customers as a senior PCI compliance specialist, among other roles, and currently also supports Deutsche Rentenversicherung Bund in IT administration and security. Thanks to his multilingual background (German, Polish, English, Spanish), he combines technical know-how with customer-oriented communication in international teams.",
+
+    "team.aleksandra_role": "Application Developer",
+    "team.aleksandra_bio": "Aleksandra Szczupakowska is an application developer at Bytes Security GmbH. She is responsible for creating, maintaining and optimizing WordPress websites and for looking after digital learning platforms based on Moodle. She also works with Microsoft Dynamics 365 Sales and the Power Platform to automate business processes, and with Wazuh in the security area. She is currently expanding her IT security knowledge with the CompTIA Security+ course."
+}

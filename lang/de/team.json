@@ -1,0 +1,15 @@
+{
+    "team.breadcrumb": "Start / Team",
+
+    "team.thomas_role": "Gründer & Geschäftsführer",
+    "team.thomas_bio": "Thomas Karzelek ist Gründer und Geschäftsführer der Bytes Security GmbH. Als Senior IT-Consultant mit langjähriger Erfahrung hat er zahlreiche komplexe IT- und Integrationsprojekte für Bundeswehr, öffentliche Verwaltung und Industrie geleitet - mit Schwerpunkt auf sicheren Infrastrukturen, IT-Grundschutz und Authentifizierungslösungen. Er ist zertifizierter PRINCE2-Agile-Practitioner, IT-Security-Sachverständiger und hat 2025 an der BSI-Schulung zum CyberRisikoCheck nach DIN SPEC 27076 teilgenommen.",
+
+    "team.lars_role": "Microsoft Administrator & IT-Consultant",
+    "team.lars_bio": "Lars Kasimir ist Microsoft Administrator, IT-System Engineer und IT-Consultant bei der Bytes Security GmbH. Mit über zehn Jahren Erfahrung in komplexen Microsoft-Systemlandschaften hat er zahlreiche Projekte für Kunden wie die Deutsche Rentenversicherung Bund und Thales Deutschland betreut - mit Schwerpunkt auf Active Directory, Office 365 sowie Print- und Scanlösungen im Second- und Third-Level-Support. Er ist zertifizierter Microsoft Certified Azure Administrator Associate sowie Citrix Certified Administrator und bringt fundiertes Know-how in Migration, Rollout und Konzeption mit.",
+
+    "team.tobias_role": "IT-Berater",
+    "team.tobias_bio": "Tobias Rottmann ist IT-Berater bei der Bytes Security GmbH und BSITCO GmbH. Als IT-Spezialist mit fundierter Erfahrung in Cybersecurity, PCI-DSS-Compliance und Systemadministration hat er unter anderem als Senior PCI-Compliance-Spezialist internationale Kunden betreut und unterstützt aktuell zusätzlich die Deutsche Rentenversicherung Bund in IT-Administration und Sicherheit. Dank seiner mehrsprachigen Erfahrung (Deutsch, Polnisch, Englisch, Spanisch) verbindet er technisches Know-how mit kundenorientierter Kommunikation in internationalen Teams.",
+
+    "team.aleksandra_role": "Anwendungsentwickler",
+    "team.aleksandra_bio": "Aleksandra Szczupakowska ist Anwendungsentwickler bei der Bytes Security GmbH. Sie verantwortet Erstellung, Pflege und Optimierung von Webseiten mit WordPress sowie die Betreuung digitaler Lernplattformen mit Moodle. Zusätzlich arbeitet sie mit Microsoft Dynamics 365 Sales und der Power Platform zur Automatisierung von Geschäftsprozessen sowie mit Wazuh im Sicherheitsbereich. Aktuell erweitert sie ihre Kenntnisse im Bereich IT-Sicherheit mit dem CompTIA-Security+-Kurs."
+}

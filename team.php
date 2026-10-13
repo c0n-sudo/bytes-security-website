@@ -1,45 +1,47 @@
 <?php
-$pageTitel ='Team'; include 'includes/header.php'; ?>
+$pageTitle = 'Team';
+include 'includes/header.php';
+?>
 
 <section class="page-hero">
-    <p class="breadcrumb">Start / Team</p>
-    <h1>Unser Team</h1>
+    <p class="breadcrumb"><?= t('team.breadcrumb') ?></p>
+    <h1><?= t('nav.team_about') ?></h1>
 </section>
 
 <section class="team-grid">
     <div class="team-card">
         <img src="assets/img/thomas-karzelek.jpg" alt="Thomas Karzelek">
         <h3>Thomas Karzelek</h3>
-        <p class="role">Gründer &amp; Geschäftsführer</p>
+        <p class="role"><?= t('team.thomas_role') ?></p>
         <p>
-            Thomas Karzelek ist Gründer und Geschäftsführer der Bytes Security GmbH. Als Senior IT-Consultant mit langjähriger Erfahrung hat er zahlreiche komplexe IT- und Integrationsprojekte für Bundeswehr, öffentliche Verwaltung und Industrie geleitet - mit Schwerpunkt auf sicheren Infrastrukturen, IT-Grundschutz und Authentifizierungslösungen. Er ist zertifizierter PRINCE2-Agile-Practitioner, IT-Security-Sachverständiger und hat 2025 an der BSI-Schulung zum CyberRisikoCheck nach DIN SPEC 27076 teilgenommen.
+            <?= t('team.thomas_bio') ?>
         </p>
     </div>
 
     <div class="team-card">
         <img src="assets/img/lars-kasimir.jpg" alt="Lars Kasimir">
         <h3>Lars Kasimir</h3>
-        <p class="role">Microsoft Administrator &amp; IT-Consultant</p>
+        <p class="role"><?= t('team.lars_role') ?></p>
         <p>
-            Lars Kasimir ist Microsoft Administrator, IT-System Engineer und IT-Consultant bei der Bytes Security GmbH. Mit über zehn Jahren Erfahrung in komplexen Microsoft-Systemlandschaften hat er zahlreiche Projekte für Kunden wie die Deutsche Rentenversicherung Bund und Thales Deutschland betreut - mit Schwerpunkt auf Active Directory, Office 365 sowie Print- und Scanlösungen im Second- und Third-Level-Support. Er ist zertifizierter Microsoft Certified Azure Administrator Associate sowie Citrix Certified Administrator und bringt fundiertes Know-how in Migration, Rollout und Konzeption mit.
+            <?= t('team.lars_bio') ?>
         </p>
     </div>
 
     <div class="team-card">
         <img src="assets/img/tobias-rottmann.jpg" alt="Tobias Rottmann">
         <h3>Tobias Rottmann</h3>
-        <p class="role">IT-Berater</p>
+        <p class="role"><?= t('team.tobias_role') ?></p>
         <p>
-            Tobias Rottmann ist IT-Berater bei der Bytes Security GmbH und BSITCO GmbH. Als IT-Spezialist mit fundierter Erfahrung in Cybersecurity, PCI-DSS-Compliance und Systemadministration hat er unter anderem als Senior PCI-Compliance-Spezialist internationale Kunden betreut und unterstützt aktuell zusätzlich die Deutschen Rentenversicherung Bund in IT-Adminstration und Sicherheit. Dank seiner mehrsprachigen Erfahrung (Deutsch, Polnisch, Englisch, Spanisch) verbindet er technisches Know-how mit kundenorientierter Kommunikation in internationlen Teams.
+            <?= t('team.tobias_bio') ?>
         </p>
     </div>
 
     <div class="team-card">
         <img src="assets/img/aleksandra-szczupakowska.jpg" alt="Aleksandra Szczupakowska">
         <h3>Aleksandra Szczupakowska</h3>
-        <p class="role">Anwendungsentwickler</p>
+        <p class="role"><?= t('team.aleksandra_role') ?></p>
         <p>
-            Aleksandra Szczupakowska ist Anwendungsentwickler bei der Bytes Security GmbH. Sie verantwortet Erstellung, Pflege und Optimierung von Webseiten mit WordPress sowie die Betreuung digitaler Lernplattformen mit Moodle. Zusätzlich arbeitet sie mit Microsoft Dynamics 365 Sales und der Power Platform zur Automatisierung von Geschäftsprozessen sowie mit Wazuh im Sicherheitsbereich. Aktuell erweitert sie ihre Kentnisse im Bereich IT-Sicherheit mit dem CompTIA-Security+ -Kurs.
+            <?= t('team.aleksandra_bio') ?>
         </p>
     </div>
 </section>
