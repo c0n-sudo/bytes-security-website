@@ -1,0 +1,33 @@
+{
+    "index.hero_title": "Die Sicherheit unserer Kunden hat für uns obersten Priorität.",
+    "index.hero_text": "Wir unterstützen Unternehmen wie Ihres dabei, ihre IT-Infrastruktur im Bereich der Sicherheit zu optimieren. Wir verfügen über das notwendige Know-how und haben bereits zahlreichen Unternehmen erfolgreich geholfen. Wenn Sie erfahren möchten, wie Sie die Sicherheit in Ihrem Unternehmen weiter verbessern können, nehmen Sie gerne Kontakt mit uns auf. Wir freuen uns darauf, Ihnen zu helfen und gemeinsam die besten Lösungen für Ihre individuellen Anforderungen zu finden.",
+
+    "index.card1_title": "Management und Sicherheitsdienstleistungen",
+    "index.card1_text": "Wir sind uns bewusst, dass die primäre Aufgabe der IT-Abteilung in den meisten Fällen die Wartung ist. Der Fokus liegt daher auf der Unterstützung der Anwender und der reibungslosen Abwicklung der laufenden Prozesse im Unternehmen. Diese Prozesse sind von äußerster Bedeutung, da sie für die Produktion, den Vertrieb, die Kundengewinnung und die Qualitätssicherung verantwortlich sind. Die verfügbare Zeit für ein professionelles Management von Sicherheitsdienstleistungen ist oft begrenzt. Falls Sie sich in dieser Situation befinden oder generell Unterstützung im Bereich IT-Sicherheit oder Serveradministration benötigen, sind wir gerne für Sie da. Kontaktieren Sie uns, und wir erstellen Ihnen ein maßgeschneidertes Angebot, um diese Herausforderungen anzugehen und die Sicherheit in Ihrem Unternehmen zu verbessern.",
+
+    "index.card2_title": "Entwerfen von Lösungen",
+    "index.card2_text": "Die Herausforderungen, denen sich Unternehmen und IT-Abteilungen stellen müssen, sind direkt an die geschäftlichen Anforderungen geknüpft. Eine optimale Reaktion auf spezifische Bedürfnisse erfordert die Nutzung umfassenden Wissens und umfangreicher Erfahrung. Dieses Vorgehen minimiert potenzielle Fehler. Unsere Projekte zeichnen sich durch praxiserprobte Funktionalität aus. Wir verfügen über die Fähigkeit, Lösungen nicht nur hinsichtlich ihrer erwarteten Funktionen, sondern auch in Bezug auf das Budget und die zukünftige Entwicklung anzupassen. Dies ermöglicht Ihnen nicht nur Zeitersparnis, sondern auch Kosteneffizienz. Unsere Kunden schätzen insbesondere unsere maßgeschneiderten Projekte. Überzeugen Sie sich selbst von unserer Expertise.",
+
+    "index.card3_title": "Sicherheits-Audits",
+    "index.card3_text": "Wir werfen einen neutralen Blick auf Ihre IT-Struktur. Unsere Prüfung zeigt, ob alles nach bewährten Standards aufgebaut ist. Daraufhin erstellen wir einen Bericht und erklären unsere Einschätzung. Wir nehmen das Netzwerk, die Firewall-Einstellungen, die Benutzerauthentifizierung, Server und Backups genau unter die Lupe. Dabei geht es um klare Informationen. Wir finden Sicherheitslücken und zeigen auf, wo es Schwachstellen gibt, die bei einem Angriff ausgenutzt werden könnten. Zusätzlich geben wir Tipps zur Optimierung Ihrer bestehenden Umgebung. Das beste Ergebnis: Sie erhalten die Gewissheit, dass Ihre IT-Infrastruktur sicher ist. Möchten Sie uns ausprobieren? Sie können gerne eine kostenlose Sicherheitsüberprüfung anfordern.",
+
+    "index.training_title": "Schulungen & Ausbildung",
+    "index.training_intro": "Wir bilden IT-Nachwuchskräfte praxisnah aus - unter anderem im Rahmen einer auf 24 Monate komprimierten Umschulung zum/zur Fachinformatiker/in, Fachrichtung Systemintegration.",
+    "index.modules_title": "Fachmodule",
+    "index.module1": "IT-Netzwerke (3 Tage)",
+    "index.module2": "Windows Server, Active Directory & Entra (4 Tage)",
+    "index.module3": "Linux Administration (3 Tage)",
+    "index.module4": "Virtualisierung, Storage & Backup (3 Tage)",
+    "index.module5": "IT-Security & Datenschutz (5 Tage)",
+    "index.module6": "AP1/AP2-Vorbereitung & IHK-Projekt (5 Tage)",
+    "index.support_title": "Begleitung während der Ausbildung",
+    "index.support_text": "Elektronischer Ausbildungsnachweis und regelmäßige Lernstandsdiagnostik - von der Eingangsanalyse über Monatsgespräche und Quartalsreviews bis zu Prüfungssimulationen. Die Ausbildung wird von Thomas Karzelek persönlich betreut.",
+
+    "index.business_title": "Unser Geschäftsmodell",
+    "index.business_intro": "Wir kombinieren einen kostenlosen Einstiegs-Check mit kontinuierlichem Monitoring und starken Partnerschaften, um Unternehmen jeder Größe einen realistischen Blick auf ihre IT-Sicherheit zu ermöglichen.",
+    "index.check_title": "IT-Security-Check",
+    "index.check_text1": "Unser kostenloser IT-Security-Check analysiert automatisiert und nicht-invasiv Ihre IT-Umgebung in 9 Kategorien - darunter E-Mail-Security, veraltete Anwendungen, DSGVO-Konformität, Netzwerk- und Websicherheit, Zertifikate und Datenpannen. Die Prüfung orientiert sich an anerkannten Standards wie NIST CIS, BSI-Grundschutz, OWASP und DSGVO. Das Ergebnis: ein konsolidierter Security-Score, eine Managementübersicht und ein persönliches Auswertungsgespräch mit konkreten Handlungsempfehlungen.",
+    "index.check_text2": "Auf Wunsch überwachen wir Ihre IT-Umgebung laufend weiter - Scan-Intervall wählbar von täglich bis quartalsweise, mit automatischen Alarmen bei neuen Schwachstellen. Unser Team unterstützt Sie dabei direkt bei der Behebung.",
+    "index.partner_title": "Co-Branding-Partnerschaft mit LocateRisk",
+    "index.partner_text": "Als Partner von LocateRisk bieten wir zusätzlich Geschäftspartner-Risikomanagement: die IT-Sicherheit und Compliance Ihrer Zulieferer und Partner wird geprüft, inklusive Fragebogen-Vorlagen für NIS2, DORA, TISAX und ISO 27001 - wichtig für Unternehmen, die ihre gesamte Lieferkette absichern müssen."
+}

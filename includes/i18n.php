@@ -8,11 +8,20 @@ if (!in_array($lang, SUPPORTED_LANGS, true)) {
 }
 
 function load_lang(string $code): array {
-    $file = __DIR__ . '/../lang/' . $code . '.json';
-    if (!is_file($file)) {
-        return [];
+    $data = [];
+
+    $main = __DIR__ . '/../lang/' . $code . '.json';
+    if (is_file($main)) {
+        $data = json_decode(file_get_contents($main), true) ?? [];
     }
-    return json_decode(file_get_contents($file), true) ?? [];
+
+    $files = glob(__DIR__ . '/../lang/' . $code . '/*.json') ?: [];
+    foreach ($files as $file) {
+        $extra = json_decode(file_get_contents($file), true) ?? [];
+        $data = array_merge($data, $extra);
+    }
+
+    return $data;
 }
 
 $translations = load_lang($lang);
