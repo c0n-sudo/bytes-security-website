@@ -3,11 +3,11 @@
     "nav.services": "Dienstleistungen",
     "nav.cybersecurity": "Cybersecurity",
     "nav.managed": "Managed Services",
-    "nav.bsi:": "BSI Konformität",
+    "nav.bsi": "BSI Konformität",
     "nav.nis2": "NIS2-Beratung",
     "nav.access": "Zugangs- und Nutzerverwaltung",
     "nav.emergency": "IT-Notfallmanagement",
-    "nav.awareness": "IT-Awareness Schulungen",
+    "nav.awareness": "IT-Awareness-Schulungen",
     "nav.soc": "SOC-Beratung",
     "nav.solutions": "Lösungen",
     "nav.trainings": "Schulungen",
@@ -17,5 +17,11 @@
     "nav.team_about": "Unser Team",
     "nav.review": "Bytes Security Rückblick",
     "btn.inquiry": "Anfrage stellen",
-    "btn.booking": "Termin buchen"
+    "btn.booking": "Termin buchen",
+    "footer.tagline": "Die Sicherheit unserer Kunden hat für uns obersten Priorität.",
+    "footer.contact": "Kontakt",
+    "footer.partner": "Partner",
+    "footer.terms": "AGB",
+    "footer.imprint": "Impressum",
+    "footer.privacy": "Datenschutzerklärung"
 }
