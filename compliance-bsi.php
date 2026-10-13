@@ -1,43 +1,43 @@
 <?php
-$pageTitel = "Compliance-Management für BSI-Richtlinien";
+$pageTitle = "Compliance-Management für BSI-Richtlinien";
 include 'includes/header.php';
 ?>
 
 <section class="page-hero">
-    <p class="breadcrumb">Cybersecurity &middot; Details zu den Dienstleistungen</p>
-    <h1>Compliance-Management für BSI-Richtlinien und Datenschutz</h1>
+    <p class="breadcrumb"><?= t('nav.cybersecurity') ?> &middot; <?= t('cyber.details') ?></p>
+    <h1><?= t('cyber.compliance') ?></h1>
 </section>
 
 <section class="content">
-    <h2>Compliance-Management für BSI-Richtlinien und Datenschutz</h2>
+    <h2><?= t('cyber.compliance') ?></h2>
     <p>
-        Unsere Dienstleistungen im Bereich Compliance-Management bieten Ihnen umfassenden Unterstützung bei der Einhaltung der Richtlinien des Bundesamts für Sicherheit in der Informationstechnick (BSI) sowie anderer Datenschutzbestimmungen. Wir helfen Ihrem Unternehmen, die Anforderungen im Bereich Informationssicherheit zu erfüllen und die Integrität Ihrere IT-Infrastruktur zu gewährleisten.
+        <?= t('comp.intro') ?>
     </p>
 
-    <h3>Leistungen im Überblick</h3>
+    <h3><?= t('cyber.overview') ?></h3>
 
-    <h4>BSI-Richtlinienkonformität</h4>
+    <h4><?= t('comp.s1_title') ?></h4>
     <p>
-        Wir sorgen dafür, dass Ihre IT-Infrastruktur den aktuellen BSI-Richtlinien entspricht, um ein hohes Maß an Informationssicherheit zu gewährleisten.
+        <?= t('comp.s1_text') ?>
     </p>
 
-    <h4>Datenschutzmanagement</h4>
+    <h4><?= t('comp.s2_title') ?></h4>
     <p>
-        Wir unterstützen Sie bei der Umsetzung und Einhaltung der Datenschutzbestimmungen, um den Schutz personenbezogener Daten Sicherzustellen.
+        <?= t('comp.s2_text') ?>
     </p>
 
-    <h4>Sicherheitsbewertungen und Audits</h4>
+    <h4><?= t('comp.s3_title') ?></h4>
     <p>
-        Regelmäßige Sicherheitsbewertungen und Audits gewährleisten die Kontinuität der Compliance und helfen, Schwachstellen frühzeitig zu erkennen und zu beheben.
+        <?= t('comp.s3_text') ?>
     </p>
 
-    <h4>Schulungen und Sensibilisierung</h4>
+    <h4><?= t('comp.s4_title') ?></h4>
     <p>
-        Wir bieten Schulungen für Ihre Mitarbeiter an, um das Bewusstsein für Sicherheitsrichtlinienen zu stärken und eine Kultur der Compliance zu fördern.
+        <?= t('comp.s4_text') ?>
     </p>
 
     <p>
-        Mit unserem Compliance-Management können Sie sicherstellen, dass Ihr Unternehmen die erforderlichen Sicherheitsstandards erfüllt und sich vor rechtlichen Risiken schützt. Verlassen Sie sich auf unsere Expertise, um Ihre Compliance-Anforderungen effektiv zu managen.
+        <?= t('comp.outro') ?>
     </p>
 </section>
 

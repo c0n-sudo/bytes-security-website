@@ -1,43 +1,43 @@
 <?php
-$pageTitel = "Cloud Security für Microsoft 365";
+$pageTitle = "Cloud Security für Microsoft 365";
 include 'includes/header.php';
 ?>
 
 <section class="page-hero">
-    <p class="breadcrumb">Cybersecurity &middot; Details zu den Dienstleistungen</p>
-    <h1>Cloud Security für Microsoft 365 - Ihr verlässlicher Partner für Datensicherheit</h1>
+    <p class="breadcrumb"><?= t('nav.cybersecurity') ?> &middot; <?= t('cyber.details') ?></p>
+    <h1><?= t('cloud.title') ?></h1>
 </section>
 
 <section class="content">
-    <h2>Cloud Security für Microsoft 365 - Ihr verlässlicher Partner für Datensicherheit</h2>
+    <h2><?= t('cloud.title') ?></h2>
     <p>
-        Unsere Cloud Security-Dienstleistungen bieten einen umfassenden Schutz für Ihre Microsoft 365-Umgebung. Wir verstehen die wachsenden Anforderungen an die Sicherheit von Cloud-Daten und bieten maßgeschneiderte Lösungen, um Ihre Unternehmensdaten vor Cyberbedrohungen zu schützen.
+        <?= t('cloud.intro') ?>
     </p>
 
-    <h3>Leistungen im Überblick</h3>
+    <h3><?= t('cyber.overview') ?></h3>
 
-    <h4>Indentitäts- und Zugriffsmanagement</h4>
+    <h4><?= t('cloud.s1_title') ?></h4>
     <p>
-        Wir implementieren fortschrittliche Identitäts- und Zugrifssmanagementlösungen, um sicherzustellen, dass nur autorisierte Benutzer auf Ihre Microsoft 365-Ressourcen zugreifen können.
+        <?= t('cloud.s1_text') ?>
     </p>
 
-    <h4>Bedrohungsabwehr für E-Mails</h4>
+    <h4><?= t('cloud.s2_title') ?></h4>
     <p>
-        Unsere Lösungen schützen Ihren E-Mail-Verkehr vor schädlichen Anhängen, Pishing-Veruchen und anderen Bedrohungen.
+        <?= t('cloud.s2_text') ?>
     </p>
 
-    <h4>Sicherheitsüberwachungen und Reaktion auf Vorfälle</h4>
+    <h4><?= t('cloud.s3_title') ?></h4>
     <p>
-        Unser Team überwacht Ihre Microsoft 365-Umgebung kontinuierlich auf verdächtige Aktivitäten und reagiert schnell auf Sicherheitsvorfälle.
+        <?= t('cloud.s3_text') ?>
     </p>
 
-    <h4>Compliance-Management</h4>
+    <h4><?= t('cloud.s4_title') ?></h4>
     <p>
-        Wir unterstützen Sie bei der Einhaltung von Datenschutzbestimmungen und branchenspezifischer Standards, um rechtlichen Anforderungen gerecht zu werden.
+        <?= t('cloud.s4_text') ?>
     </p>
 
     <p>
-        Mit unserem Cloud Security-Dienstleistungen können Sie sich darauf verlasen, dass Ihre Microsoft 365-Daten sicher und geschützt sind. Konzentrieren Sie sich auf Ihr kerngeschäft, während wir für die Sicherheit Ihrer Cloud-Infrastruktur sorgen.
+        <?= t('cloud.outro') ?>
     </p>
 </section>
 

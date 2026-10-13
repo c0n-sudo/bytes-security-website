@@ -1,38 +1,38 @@
 <?php
-$pageTitel = "Managed Firewall-Services";
+$pageTitle = "Managed Firewall-Services";
 include 'includes/header.php';
 ?>
 
 <section class="page-hero">
-    <p class="breadcrumb">Cybersecurity &middot; Details zu den Dienstleistungen</p>
-    <h1>Managed Firewall-Services</h1>
+    <p class="breadcrumb"><?= t('nav.cybersecurity') ?> &middot; <?= t('cyber.details') ?></p>
+    <h1><?= t('fw.title') ?></h1>
 </section>
 
 <section class="content">
-    <h2>Managed Firewall-Services für umfassenden Netzwerkschutz</h2>
+    <h2><?= t('cyber.firewall') ?></h2>
     <p>
-        Unsere Managed Firewall-Services bieten Ihnen einen umfassenden Schutz vor Cyberbedrohungen und gewährleisten die Sicherheit Ihres Unternehmensnetzwerks. Mit unserer fortschrittlichen Firewall-Technologie minimieren wir Risiken, schützen vertrauliche Daten und sichern Ihre geschäftskritischen Anwendungen.
+        <?= t('fw.intro') ?>
     </p>
 
-    <h3>Leistungen im Überblick</h3>
+    <h3><?= t('cyber.overview') ?></h3>
 
-    <h4>Firewall-Konfiguration und -Optimierung</h4>
+    <h4><?= t('fw.s1_title') ?></h4>
     <p>
-        Wir passen die Firewall-Einstellungen an Ihre spezifischen Anforderungen an und optimieren sie regelmäßig, um eine effiziente Abwehr von Angriffen sicherzustellen.
+        <?= t('fw.s1_text') ?>
     </p>
 
-    <h4>Bedrohungsanalyse und -abwehr</h4>
+    <h4><?= t('fw.s2_title') ?></h4>
     <p>
-        Durch fortlaufende Analyse von Bedrohungensinformationen und schnelle Reaktion schützen wir Ihr Unternehmen vor den neuesten Cyberangriffen.
+        <?= t('fw.s2_text') ?>
     </p>
 
-    <h4>Berichterstattung und Compliance</h4>
+    <h4><?= t('fw.s3_title') ?></h4>
     <p>
-        Sie erhalten regelmäßige Berichte über die Sicherheitslage Ihres Netzwerks sowie Unterstützung bei der Einhaltung relevanter Sicherheitsstandards und Vorschriften.
+        <?= t('fw.s3_text') ?>
     </p>
 
     <p>
-        Unsere Manged Firewall-Services bieten Ihnen die Gewissheit, dass Ihr Netzwerk stats vor den neuesten Bedrohungen geschützt ist. Verlassen Sie sich auf unsere Expertise, damit Sie sich auf Ihr Kerngeschäft konzentrieren können.
+        <?= t('fw.outro') ?>
     </p>
 </section>
 

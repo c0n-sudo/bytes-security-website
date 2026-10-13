@@ -1,43 +1,43 @@
-<?php 
-$pageTitel = "Regelmäßige Sicherheitsaudits";
+<?php
+$pageTitle = "Regelmäßige Sicherheitsaudits";
 include 'includes/header.php';
 ?>
 
 <section class="page-hero">
-    <p class="breadcrumb">Cybersecurity &middot; Dienstleistungen</p>
-    <h1>Regelmäßige Sicherheitsaudits</h1>
+    <p class="breadcrumb"><?= t('nav.cybersecurity') ?> &middot; <?= t('cyber.details') ?></p>
+    <h1><?= t('cyber.audits') ?></h1>
 </section>
 
 <section class="content">
-    <h2>Gemangate IT-Sicherheitdienstleistungen für umfassenden Schutz</h2>
+    <h2><?= t('au.heading') ?></h2>
     <p>
-        Unsere gemanagten IT-Sicherheitsdienstleistungen bieten Ihnen einen Rundum-Schutz für Ihre IT-Infrastruktur. Wir verstehen die ständig wachsenden Herausforderungen im Bereich der Cybersecurity und bieten maßgeschneiderte Lösungen, um Ihr Unternehmen vor Bedrohungen zu schützen.
+        <?= t('au.intro') ?>
     </p>
 
-    <h3>Leistungen im Überblick</h3>
+    <h3><?= t('cyber.overview') ?></h3>
 
-    <h4>Umfassende Sicherheitsabwertung</h4>
+    <h4><?= t('au.s1_title') ?></h4>
     <p>
-        Unsere Expperten führen regelmäßig Audits Ihrer IT-Infrastruktur durch, um Schwachstellen und potenzielle Risiken zu identifizieren.
+        <?= t('au.s1_text') ?>
     </p>
 
-    <h4>Penetrationstests</h4>
+    <h4><?= t('au.s2_title') ?></h4>
     <p>
-        Wir simulieren realistische Angriffsszenarien, um die Widerstandfähigkeit Ihres Netzwerks geenüber externen Bedrohungen zu überprüfen.
+        <?= t('au.s2_text') ?>
     </p>
 
-    <h4>Überprüfunge von Sicherheitsrichtlinien</h4>
+    <h4><?= t('au.s3_title') ?></h4>
     <p>
-        Wir stellen sicher, dass Ihre Sicherheitsrichtlinien den aktuellen Best Practices und branchenspezifischen Standards entsprechen.
+        <?= t('au.s3_text') ?>
     </p>
 
-    <h4>Maßgeschneiderte Empfehlungen</h4>
+    <h4><?= t('au.s4_title') ?></h4>
     <p>
-        Auf Basis der Auditsergebnisse bieten wir maßgeschneiderte Empfehlungen und Handlungsempfehlungen zur Verbesserunge Ihrer Sicherheitslage.
+        <?= t('au.s4_text') ?>
     </p>
 
     <p>
-        Mit unseren regelmäßgen Sicherheitsaudits sorgen wir dafür, dass Ihr Unternehmen stets einen Schritt voraus ist, wenn es um Cybersecurity geht. Verlassen Sie sich auf unseren Expertise, um Ihre Sicherheitspraktiken kontinuierlich zu optimieren.
+        <?= t('au.outro') ?>
     </p>
 </section>
 
