@@ -1,0 +1,23 @@
+{
+    "ms.title": "Managed IT Services for Comprehensive Business Security",
+    "ms.intro": "Our managed IT services provide comprehensive care for your IT infrastructure. Rely on our expertise to manage and protect your networks, servers and data effectively.",
+    "ms.overview": "Our Services at a Glance",
+
+    "ms.network_title": "Network Management",
+    "ms.network1": "Configuration, monitoring and optimization of your network infrastructure.",
+    "ms.network2": "Ensuring smooth and secure data traffic.",
+
+    "ms.backup_title": "Backup Management",
+    "ms.backup1": "Regular backups of your business-critical data.",
+    "ms.backup2": "Recovery services in the event of data loss or outages.",
+
+    "ms.vuln_title": "Vulnerability Management",
+    "ms.vuln1": "Continuous monitoring and analysis of security vulnerabilities.",
+    "ms.vuln2": "Implementation of measures to remediate weaknesses.",
+
+    "ms.report_title": "Reporting and Consulting",
+    "ms.report1": "Regular reports on performance, security and compliance.",
+    "ms.report2": "Advice on optimization opportunities and future investments.",
+
+    "ms.outro": "With our managed IT services, you can focus on your core business while we make sure your IT infrastructure is secure, stable and high-performing."
+}

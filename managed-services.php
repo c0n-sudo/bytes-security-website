@@ -4,44 +4,44 @@ include 'includes/header.php';
 ?>
 
 <section class="page-hero">
-    <p class="breadcrumb">Dienstleistungen &middot; Managed Services</p>
-    <h1>Gemanagte IT-Dienstleistungen für umfassende Unternehmenssicherheit</h1>
+    <p class="breadcrumb"><?= t('nav.services') ?> &middot; <?= t('nav.managed') ?></p>
+    <h1><?= t('ms.title') ?></h1>
 </section>
 
 <section class="content">
-    <h2>Gemanagte IT-Dienstleistungen für umfassenden Unternehmenssicherheit</h2>
+    <h2><?= t('ms.title') ?></h2>
     <p>
-        Unsere gemanagten IT-Dienstleisungen bieten eine umfassende Betreuung Ihrer IT-Infrastruktur. Verlassen Sie sich afu unsere Expertise, um Ihre Netzwerke, Server und Daten effektiv zu verwalten und zu schützen.
+        <?= t('ms.intro') ?>
     </p>
 
-    <h3>Unsere Dienstleistungen im Überblick</h3>
+    <h3><?= t('ms.overview') ?></h3>
 
-    <h4>Netzwerkmanagement</h4>
+    <h4><?= t('ms.network_title') ?></h4>
     <ul>
-        <li>Konfiguration, Überwachung und Optimierung Ihrer Netzwerkinfrastruktur.</li>
-        <li>Gewährleistung eines reibungslosen und sicheren Datenverkehrs.</li>
+        <li><?= t('ms.network1') ?></li>
+        <li><?= t('ms.network2') ?></li>
     </ul>
 
-    <h4>Backup-Management</h4>
+    <h4><?= t('ms.backup_title') ?></h4>
     <ul>
-        <li>Regelmäßige Sicherung Ihrer geschäftskritischen Daten.</li>
-        <li>Wiederherstellungsdienste im Falle von Datenverlust oder Ausfälnnen.</li>
+        <li><?= t('ms.backup1') ?></li>
+        <li><?= t('ms.backup2') ?></li>
     </ul>
 
-    <h4>Vulnerability Management</h4>
+    <h4><?= t('ms.vuln_title') ?></h4>
     <ul>
-        <li>Kontinuierliche Überwachung und Analyse von Sicherheitslücken.</li>
-        <li>Implementierung von Maßnahmen zur Behebung von Schwachstellen.</li>
+        <li><?= t('ms.vuln1') ?></li>
+        <li><?= t('ms.vuln2') ?></li>
     </ul>
 
-    <h4>Reporting und Beratung</h4>
+    <h4><?= t('ms.report_title') ?></h4>
     <ul>
-        <li>Regelmäßige Berichte über Leistung, Sicherheit und Compliance.</li>
-        <li>Beratung zu Optimierunsmöglichkeiten und zukünftigen Investitionen</li>
+        <li><?= t('ms.report1') ?></li>
+        <li><?= t('ms.report2') ?></li>
     </ul>
 
     <p>
-        Mit unseren gemanagten IT-Dienstleistung können Sie sich auf Ihr Kerngeschäft konzentrieren, während wir sicherstellen, dass Ihre IT-Infrastruktur sicher, stabil und leistungsfähig ist.
+        <?= t('ms.outro') ?>
     </p>
 </section>
 

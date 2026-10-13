@@ -1,0 +1,31 @@
+{
+    "bsi.title": "BSI-Compliant IT Security Solutions for Your Business",
+    "bsi.intro": "Our BSI-compliant IT security solutions give you reliable protection against the latest threats in information technology. Rely on our expertise to ensure the security of your data and IT infrastructure in line with the guidelines of the German Federal Office for Information Security (BSI).",
+    "bsi.overview": "Our Services at a Glance",
+
+    "bsi.s1_title": "BSI Guideline Compliance",
+    "bsi.s1_a": "Ensuring compliance with the BSI guidelines for information security.",
+    "bsi.s1_b": "Regular updates and adjustments to new requirements.",
+
+    "bsi.s2_title": "IT Security Consulting",
+    "bsi.s2_a": "Individual advice on optimizing your IT security strategy.",
+    "bsi.s2_b": "Tailor-made solutions for risk minimization.",
+
+    "bsi.s3_title": "Security Audits and Penetration Tests",
+    "bsi.s3_a": "Security audits to uncover vulnerabilities.",
+    "bsi.s3_b": "Penetration tests to check your resilience against attacks.",
+
+    "bsi.s4_title": "Training and Awareness",
+    "bsi.s4_a": "Employee training to promote the secure use of IT resources.",
+    "bsi.s4_b": "Raising awareness of current threats and security practices.",
+
+    "bsi.s5_title": "Incident Response and Emergency Management",
+    "bsi.s5_a": "Fast response to security incidents in line with BSI requirements.",
+    "bsi.s5_b": "Emergency management to minimize the impact of security incidents.",
+
+    "bsi.s6_title": "Documentation and Compliance Evidence",
+    "bsi.s6_a": "Comprehensive documentation of BSI compliance for internal and external audits.",
+    "bsi.s6_b": "Provision of compliance evidence in line with legal requirements.",
+
+    "bsi.outro": "With our BSI-compliant IT security solutions, you can be confident that your company meets the highest standards in information security. Focus on your core business while we take care of the security of your digital assets."
+}

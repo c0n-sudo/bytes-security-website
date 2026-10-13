@@ -4,56 +4,56 @@ include 'includes/header.php';
 ?>
 
 <section class="page-hero">
-    <p class="breadcrumb">Dienstleistungen &middot; BSI-Konformität</p>
-    <h1>BSI-Konforme IT-Sicherheitslösungen für Ihr Unternehmen</h1>
+    <p class="breadcrumb"><?= t('nav.services') ?> &middot; <?= t('nav.bsi') ?></p>
+    <h1><?= t('bsi.title') ?></h1>
 </section>
 
 <section class="content">
-    <h2>BSI-Konforme IT-Sicherheitslösungen für Ihr Unternehmen</h2>
+    <h2><?= t('bsi.title') ?></h2>
     <p>
-        Unsere BSI-Konformen IT-Sicherheitslösungen bieten Ihnen einen zuverlässigen Schutz vor den neuesten Bedrohungen im Bereich der Informationstechnik. Vertrauen Sie auf unsere Expertise, um die Sicherheit Ihrer Daten und IT-Infrastruktur gemäß den Richtlinien des Bundesamts für Sicherheit in der Informationstechnik (BSI) zu gewährleisten.
+        <?= t('bsi.intro') ?>
     </p>
 
-    <h3>Unsere Leistungen im Überblick</h3>
+    <h3><?= t('bsi.overview') ?></h3>
 
-    <h4>BSI-Richtlinienkonformität</h4>
+    <h4><?= t('bsi.s1_title') ?></h4>
     <ul>
-        <li>Gewährleistung der Einhaltung der BSI-Richtlinien für Informationssicherheit.</li>
-        <li>Regelmäßige Aktualisierung und Anpassung an neue Vorgaben.</li>
+        <li><?= t('bsi.s1_a') ?></li>
+        <li><?= t('bsi.s1_b') ?></li>
     </ul>
 
-    <h4>IT-Sicherheitsberatung</h4>
+    <h4><?= t('bsi.s2_title') ?></h4>
     <ul>
-        <li>Individuelle Beratung zur Optimierung Ihrer IT-Sicherheitsstrategie.</li>
-        <li>Maßgeschneiderte Lösungen zur Risikominimierung.</li>
+        <li><?= t('bsi.s2_a') ?></li>
+        <li><?= t('bsi.s2_b') ?></li>
     </ul>
 
-    <h4>Sicherheitsaudits und Penetrationstests</h4>
+    <h4><?= t('bsi.s3_title') ?></h4>
     <ul>
-        <li>Durchführung von Sicherheitsaudits, um Schwachstellen aufzudecken.</li>
-        <li>Penetrationstests zur Überprüfung der Widerstandsfähigkeit gegenüber Angriffen.</li>
+        <li><?= t('bsi.s3_a') ?></li>
+        <li><?= t('bsi.s3_b') ?></li>
     </ul>
 
-    <h4>Schulungen und Sensibilisierung</h4>
+    <h4><?= t('bsi.s4_title') ?></h4>
     <ul>
-        <li>Schulungen für Mitarbeiter zur Förderun eines sicheren Umgangs mit IT-Rssourcen.</li>
-        <li>Sensibilisierung für aktuelle Bedrohungen und Sicherheitspraktiken.</li>
+        <li><?= t('bsi.s4_a') ?></li>
+        <li><?= t('bsi.s4_b') ?></li>
     </ul>
 
-    <h4>Incedent Response und Notfallmanagement</h4>
+    <h4><?= t('bsi.s5_title') ?></h4>
     <ul>
-        <li>Schnelle Reaktion auf Sicherheitsvorfälle gemäß BSI-Vorgaben.</li>
-        <li>notfallmanagement zur Minimierung von Auswirkungen bei Sicherheitsvorfällen.</li>
+        <li><?= t('bsi.s5_a') ?></li>
+        <li><?= t('bsi.s5_b') ?></li>
     </ul>
 
-    <h4>Dokumentation und Compliance-Nachweise</h4>
+    <h4><?= t('bsi.s6_title') ?></h4>
     <ul>
-        <li>Umfassende Dokumentation der BSI-Konformität für interene und externe Prüfungen</li>
-        <li>Bereitstellung von Compliance-Nachweisen gemäß gesetzlicher Anforderungen.</li>
+        <li><?= t('bsi.s6_a') ?></li>
+        <li><?= t('bsi.s6_b') ?></li>
     </ul>
 
     <p>
-        Mit unseren BSI-konformen IT-Sicherheitslösungen können Sie sich darauf, verlassen, dass Ihr Unternehmen den höchsten Standards in der Informationssicherheit entspricht. Konzentrieren Sie sich auf Ihr Kerngeschäft, während wir für die Sicherheit Ihrer digitalen Assets sorgen.
+        <?= t('bsi.outro') ?>
     </p>
 </section>
 
