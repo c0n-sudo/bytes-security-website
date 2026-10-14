@@ -1,0 +1,15 @@
+{
+    "team.breadcrumb": "Start / Zespół",
+
+    "team.thomas_role": "Założyciel i dyrektor zarządzający",
+    "team.thomas_bio": "Thomas Karzelek jest założycielem i dyrektorem zarządzającym Bytes Security GmbH. Jako starszy konsultant IT z wieloletnim doświadczeniem kierował licznymi złożonymi projektami IT i integracyjnymi dla Bundeswehry, administracji publicznej i przemysłu - ze szczególnym uwzględnieniem bezpiecznych infrastruktur, IT-Grundschutz (podstawowej ochrony IT) i rozwiązań uwierzytelniających. Jest certyfikowanym PRINCE2 Agile Practitioner, biegłym w zakresie bezpieczeństwa IT, a w 2025 roku uczestniczył w szkoleniu BSI dotyczącym CyberRisikoCheck zgodnie z DIN SPEC 27076.",
+
+    "team.lars_role": "Administrator Microsoft i konsultant IT",
+    "team.lars_bio": "Lars Kasimir jest administratorem Microsoft, inżynierem systemów IT i konsultantem IT w Bytes Security GmbH. Dzięki ponad dziesięcioletniemu doświadczeniu w złożonych środowiskach Microsoft obsługiwał liczne projekty dla klientów takich jak Deutsche Rentenversicherung Bund i Thales Deutschland - ze szczególnym uwzględnieniem Active Directory, Office 365 oraz rozwiązań do druku i skanowania we wsparciu drugiej i trzeciej linii. Posiada certyfikaty Microsoft Certified Azure Administrator Associate oraz Citrix Certified Administrator i wnosi solidną wiedzę z zakresu migracji, wdrożeń i projektowania.",
+
+    "team.tobias_role": "Konsultant IT",
+    "team.tobias_bio": "Tobias Rottmann jest konsultantem IT w Bytes Security GmbH i BSITCO GmbH. Jako specjalista IT z solidnym doświadczeniem w cyberbezpieczeństwie, zgodności z PCI DSS i administracji systemami obsługiwał m.in. jako starszy specjalista ds. zgodności z PCI międzynarodowych klientów, a obecnie dodatkowo wspiera Deutsche Rentenversicherung Bund w administracji IT i bezpieczeństwie. Dzięki wielojęzycznemu doświadczeniu (niemiecki, polski, angielski, hiszpański) łączy wiedzę techniczną z komunikacją zorientowaną na klienta w międzynarodowych zespołach.",
+
+    "team.aleksandra_role": "Programistka aplikacji",
+    "team.aleksandra_bio": "Aleksandra Szczupakowska jest programistką aplikacji w Bytes Security GmbH. Odpowiada za tworzenie, utrzymanie i optymalizację stron internetowych w WordPress oraz za obsługę cyfrowych platform edukacyjnych opartych na Moodle. Ponadto pracuje z Microsoft Dynamics 365 Sales i Power Platform w celu automatyzacji procesów biznesowych oraz z Wazuh w obszarze bezpieczeństwa. Obecnie poszerza swoją wiedzę z zakresu bezpieczeństwa IT na kursie CompTIA Security+."
+}

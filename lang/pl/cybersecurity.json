@@ -1,0 +1,8 @@
+{
+    "cyber.firewall": "Zarządzane usługi zapory sieciowej (firewall) dla kompleksowej ochrony sieci",
+    "cyber.antivirus": "Ochrona antywirusowa i analiza złośliwego oprogramowania",
+    "cyber.audits": "Regularne audyty bezpieczeństwa",
+    "cyber.network": "Bezpieczeństwo sieci dla kompleksowej ochrony",
+    "cyber.compliance": "Zarządzanie zgodnością z wytycznymi BSI i ochroną danych",
+    "cyber.cloud": "Cloud Security dla Microsoft"
+}
