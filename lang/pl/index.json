@@ -1,0 +1,33 @@
+{
+    "index.hero_title": "Bezpieczeństwo naszych klientów jest dla nas najwyższym priorytetem.",
+    "index.hero_text": "Wspieramy firmy takie jak Państwa w optymalizacji bezpieczeństwa ich infrastruktury IT. Dysponujemy niezbędnym know-how i skutecznie pomogliśmy już wielu przedsiębiorstwom. Jeśli chcą Państwo dowiedzieć się, jak jeszcze bardziej poprawić bezpieczeństwo w Państwa firmie, prosimy o kontakt. Chętnie Państwu pomożemy i wspólnie znajdziemy najlepsze rozwiązania dla Państwa indywidualnych potrzeb.",
+
+    "index.card1_title": "Usługi zarządzania i bezpieczeństwa",
+    "index.card1_text": "Zdajemy sobie sprawę, że podstawowym zadaniem działu IT jest zazwyczaj utrzymanie systemów. Dlatego priorytetem jest wsparcie użytkowników i sprawny przebieg bieżących procesów w firmie. Procesy te mają ogromne znaczenie, ponieważ odpowiadają za produkcję, sprzedaż, pozyskiwanie klientów i zapewnienie jakości. Czas dostępny na profesjonalne zarządzanie usługami bezpieczeństwa jest często ograniczony. Jeśli znajdują się Państwo w takiej sytuacji lub ogólnie potrzebują wsparcia w zakresie bezpieczeństwa IT lub administracji serwerami, chętnie pomożemy. Prosimy o kontakt - przygotujemy dla Państwa ofertę dopasowaną do potrzeb, aby sprostać tym wyzwaniom i poprawić bezpieczeństwo w Państwa firmie.",
+
+    "index.card2_title": "Projektowanie rozwiązań",
+    "index.card2_text": "Wyzwania, przed którymi stoją firmy i działy IT, są bezpośrednio powiązane z wymaganiami biznesowymi. Optymalna odpowiedź na konkretne potrzeby wymaga szerokiej wiedzy i bogatego doświadczenia. Takie podejście minimalizuje ryzyko błędów. Nasze projekty cechuje sprawdzona w praktyce funkcjonalność. Potrafimy dostosować rozwiązania nie tylko do oczekiwanych funkcji, ale także do budżetu i przyszłego rozwoju. Dzięki temu oszczędzają Państwo nie tylko czas, ale także koszty. Nasi klienci szczególnie cenią nasze projekty szyte na miarę. Przekonają się Państwo sami o naszej wiedzy eksperckiej.",
+
+    "index.card3_title": "Audyty bezpieczeństwa",
+    "index.card3_text": "Spoglądamy na Państwa strukturę IT w sposób neutralny. Nasz przegląd pokazuje, czy wszystko zostało zbudowane zgodnie ze sprawdzonymi standardami. Następnie sporządzamy raport i wyjaśniamy naszą ocenę. Dokładnie sprawdzamy sieć, ustawienia zapory sieciowej (firewall), uwierzytelnianie użytkowników, serwery i kopie zapasowe. Chodzi o jasne informacje. Wyszukujemy luki w zabezpieczeniach i wskazujemy słabe punkty, które mogłyby zostać wykorzystane podczas ataku. Dodatkowo udzielamy wskazówek dotyczących optymalizacji istniejącego środowiska. Najlepszy rezultat: zyskują Państwo pewność, że Państwa infrastruktura IT jest bezpieczna. Chcieliby Państwo nas wypróbować? Zachęcamy do zamówienia bezpłatnego przeglądu bezpieczeństwa.",
+
+    "index.training_title": "Szkolenia i kształcenie",
+    "index.training_intro": "Kształcimy młode kadry IT w sposób praktyczny - między innymi w ramach skróconej do 24 miesięcy przekwalifikacji na informatyka (Fachinformatiker), specjalność integracja systemów.",
+    "index.modules_title": "Moduły specjalistyczne",
+    "index.module1": "Sieci IT (3 dni)",
+    "index.module2": "Windows Server, Active Directory i Entra (4 dni)",
+    "index.module3": "Administracja Linux (3 dni)",
+    "index.module4": "Wirtualizacja, storage i backup (3 dni)",
+    "index.module5": "Bezpieczeństwo IT i ochrona danych (5 dni)",
+    "index.module6": "Przygotowanie do AP1/AP2 i projekt IHK (5 dni)",
+    "index.support_title": "Wsparcie w trakcie kształcenia",
+    "index.support_text": "Elektroniczny dziennik kształcenia i regularna diagnostyka postępów w nauce - od analizy wstępnej, przez rozmowy miesięczne i przeglądy kwartalne, po symulacje egzaminów. Kształcenie jest osobiście nadzorowane przez Thomasa Karzeleka.",
+
+    "index.business_title": "Nasz model biznesowy",
+    "index.business_intro": "Łączymy bezpłatny wstępny przegląd z ciągłym monitoringiem i silnymi partnerstwami, aby umożliwić firmom każdej wielkości realistyczne spojrzenie na ich bezpieczeństwo IT.",
+    "index.check_title": "IT Security Check",
+    "index.check_text1": "Nasz bezpłatny IT Security Check analizuje Państwa środowisko IT w sposób zautomatyzowany i nieinwazyjny w 9 kategoriach - m.in. bezpieczeństwo poczty e-mail, nieaktualne aplikacje, zgodność z RODO, bezpieczeństwo sieci i stron internetowych, certyfikaty oraz naruszenia ochrony danych. Przegląd opiera się na uznanych standardach, takich jak NIST CIS, BSI-Grundschutz, OWASP i RODO. Rezultat: skonsolidowany wskaźnik bezpieczeństwa (Security Score), podsumowanie dla zarządu oraz osobista rozmowa podsumowująca z konkretnymi zaleceniami.",
+    "index.check_text2": "Na życzenie monitorujemy Państwa środowisko IT w sposób ciągły - z interwałem skanowania do wyboru od codziennego do kwartalnego oraz z automatycznymi alertami o nowych podatnościach. Nasz zespół wspiera Państwa bezpośrednio w ich usuwaniu.",
+    "index.partner_title": "Partnerstwo co-brandingowe z LocateRisk",
+    "index.partner_text": "Jako partner LocateRisk oferujemy dodatkowo zarządzanie ryzykiem partnerów biznesowych: sprawdzamy bezpieczeństwo IT i zgodność Państwa dostawców i partnerów, w tym szablony kwestionariuszy dla NIS2, DORA, TISAX i ISO 27001 - ważne dla firm, które muszą zabezpieczyć cały swój łańcuch dostaw."
+}
