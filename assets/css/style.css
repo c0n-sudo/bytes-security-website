@@ -857,6 +857,7 @@ body {
     font-weight: 600;
 }
 
+.main-nav a,
 .btn-cta {
     white-space: nowrap;
 }
