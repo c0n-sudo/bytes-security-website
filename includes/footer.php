@@ -7,9 +7,9 @@
                 <p><?= t('footer.tagline') ?></p>
                 <div class="footer-badges">
                     <img src="assets/img/cyberrisikocheck-logo.png"
-                         alt="BSI CyberRisikoCheck">
+                         alt="<?= t('a11y.badge_risk') ?>">
                     <img src="assets/img/allianz-cybersicherheit-teilnehmer-logo.png"
-                         alt="Allianz für Cyber-Sicherheit">
+                         alt="<?= t('a11y.badge_alliance') ?>">
                 </div>
             </div>
 

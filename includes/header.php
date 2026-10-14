@@ -42,7 +42,7 @@ if (t_exists('desc.' . $page)) {
                 <img src="assets/img/logo.png" alt="Bytes Security">
             </a>
 
-            <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">
+            <button class="nav-toggle" aria-label="<?= t('a11y.menu_open') ?>" aria-expanded="false">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -54,7 +54,7 @@ if (t_exists('desc.' . $page)) {
                     <ul>
                         <li class="has-dropdown">
                             <a href="#"><?= t('nav.services') ?></a>
-                            <button class="dropdown-toggle" aria-label="Untermenü öffnen" aria-expanded="false"></button>
+                            <button class="dropdown-toggle" aria-label="<?= t('a11y.submenu_open') ?>" aria-expanded="false"></button>
                             <ul class="dropdown">
                                 <li><a href="<?= url('cybersecurity.php') ?>"><?= t('nav.cybersecurity') ?></a></li>
                                 <li><a href="<?= url('managed-services.php') ?>"><?= t('nav.managed') ?></a></li>
@@ -72,7 +72,7 @@ if (t_exists('desc.' . $page)) {
                         <li><a href="#footer-kontakt"><?= t('nav.contact') ?></a></li>
                         <li class="has-dropdown">
                             <a href="<?= url('team.php') ?>"><?= t('nav.team') ?></a>
-                            <button class="dropdown-toggle" aria-label="Untermenü öffnen" aria-expanded="false"></button>
+                            <button class="dropdown-toggle" aria-label="<?= t('a11y.submenu_open') ?>" aria-expanded="false"></button>
                             <ul class="dropdown">
                                 <li><a href="<?= url('team.php') ?>"><?= t('nav.team_about') ?></a></li>
                                 <li><a href="<?= url('rueckblick.php') ?>"><?= t('nav.review') ?></a></li>
@@ -85,7 +85,7 @@ if (t_exists('desc.' . $page)) {
                 <a href="<?= url('kontakt.php') ?>" class="btn-cta"><?= t('btn.inquiry') ?></a>
                 <a href="<?= url('termin.php') ?>" class="btn-cta"><?= t('btn.booking') ?></a>
 
-                <div class="lang-switch">
+                <div class="lang-switch" role="group" aria-label="<?= t('a11y.language') ?>">
                     <?php foreach (SUPPORTED_LANGS as $code): ?>
                         <a href="?lang=<?= $code ?>"
                            class="<?= $code === $lang ? 'active' : '' ?>">
