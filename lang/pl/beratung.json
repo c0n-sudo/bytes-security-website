@@ -1,0 +1,41 @@
+{
+    "nis.intro": "Europejska dyrektywa NIS2 nakłada na wiele firm nowe, miejscami surowe wymagania w zakresie bezpieczeństwa IT. Pomagamy Państwu uzyskać jasność co do Państwa sytuacji i podejść do niezbędnych kroków w sposób uporządkowany.",
+    "nis.s1_title": "Ocena, czy dotyczy to Państwa firmy",
+    "nis.s1_text": "Najpierw razem z Państwem ustalamy, czy i w jakim zakresie Państwa firma podlega przepisom NIS2 - jako podstawę dla wszystkich dalszych kroków.",
+    "nis.s2_title": "Identyfikacja ryzyk",
+    "nis.s2_text": "Analizujemy Państwa obecną sytuację w zakresie bezpieczeństwa IT i wskazujemy, w których obszarach konieczne są działania, aby spełnić wymagania dyrektywy.",
+    "nis.s3_title": "Wsparcie we wdrożeniu",
+    "nis.s3_text": "Od koncepcji monitoringu i procesów awaryjnych po zabezpieczenie łańcucha dostaw - doradzamy Państwu, jak krok po kroku wdrożyć konkretne wymogi w praktyce.",
+
+    "acc.intro": "To, kto do czego ma dostęp, w decydującym stopniu wpływa na bezpieczeństwo Państwa danych. Doradzamy Państwu, jak jasno uporządkować prawa dostępu i ograniczyć je do rozsądnego poziomu.",
+    "acc.s1_title": "Przegląd istniejących uprawnień",
+    "acc.s1_text": "Wspólnie z Państwem analizujemy obecne koncepcje uprawnień i ról - na przykład w Active Directory, na nośnikach danych lub w aplikacjach branżowych - i wskazujemy, gdzie potrzebne są zmiany.",
+    "acc.s2_title": "Doradztwo w zakresie uwierzytelniania wieloskładnikowego",
+    "acc.s2_text": "Wyjaśniamy Państwu możliwości uwierzytelniania wieloskładnikowego i nowoczesnych metod passkey oraz doradzamy, jak sensownie wprowadzić je do Państwa istniejącego środowiska.",
+    "acc.s3_title": "Koncepcje dla Microsoft 365",
+    "acc.s3_text": "W zakresie korzystania z SharePoint, Teams i OneDrive doradzamy Państwu w kwestii praktycznych koncepcji dostępu, które łączą bezpieczne korzystanie z łatwą współpracą.",
+
+    "emg.intro": "Awaria IT zazwyczaj zaskakuje firmy nieprzygotowane - często z odczuwalnymi skutkami dla bieżącej działalności. Doradzamy Państwu, jak celowo przygotować się na takie sytuacje, aby w razie potrzeby obowiązywały jasne procedury zamiast niepewności.",
+    "emg.s1_title": "Inwentaryzacja Państwa przygotowania na sytuacje kryzysowe",
+    "emg.s1_text": "Wspólnie sprawdzamy, jak dobrze Państwa firma jest obecnie przygotowana na awarie IT lub incydenty bezpieczeństwa - od istniejących procedur tworzenia kopii zapasowych po przypisane odpowiedzialności na wypadek kryzysu. Na tej podstawie formułujemy konkretne zalecenia.",
+    "emg.s2_title": "Opracowanie planu awaryjnego",
+    "emg.s2_text": "Wspieramy Państwa w tworzeniu indywidualnego podręcznika awaryjnego: jasno zdefiniowane procesy, odpowiedzialności i ścieżki komunikacji, dzięki którym Państwa zespół w razie kryzysu zachowa zdolność do działania i nie będzie musiał improwizować.",
+    "emg.s3_title": "Przywrócenie działalności firmy",
+    "emg.s3_text": "Poza samym tworzeniem kopii zapasowych doradzamy Państwu, jak firma może szybko odzyskać zdolność do pracy nawet po poważnym incydencie IT - ze szczególnym uwzględnieniem krytycznych dla Państwa systemów i procesów.",
+
+    "awr.intro": "Nawet najlepsze zabezpieczenia techniczne na niewiele się zdadzą, jeśli pracownicy nie rozpoznają zagrożeń w codziennej pracy. Doradzamy Państwu, jak celowo uwrażliwić zespół na ryzyka związane z bezpieczeństwem IT.",
+    "awr.s1_title": "Indywidualne zasady użytkowania",
+    "awr.s1_text": "Wspólnie z Państwem opracowujemy wytyczne dotyczące bezpiecznego korzystania z systemów IT - dopasowane do procesów w Państwa firmie.",
+    "awr.s2_title": "Doradztwo w zakresie formatów szkoleń",
+    "awr.s2_text": "Pokazujemy Państwu możliwości przeprowadzania szkoleń z bezpieczeństwa IT na miejscu lub w formie cyfrowej, w tym podejścia do regularnego odświeżania wiedzy.",
+    "awr.s3_title": "Uwrażliwianie na phishing i socjotechnikę",
+    "awr.s3_text": "Doradzamy Państwu, jak sprawić, aby typowe próby ataków, takie jak wiadomości phishingowe, były rozpoznawalne dla zespołu, tak aby Państwa pracownicy w razie potrzeby zareagowali właściwie.",
+
+    "soc.intro": "Security Operations Center (SOC) skupia ciągłe monitorowanie Państwa systemów IT w jednym centralnym miejscu. Doradzamy Państwu, czy i w jaki sposób takie podejście pasuje do Państwa firmy.",
+    "soc.s1_title": "Ocena potrzeb",
+    "soc.s1_text": "Wspólnie sprawdzamy, w jakim zakresie ciągły monitoring jest sensowny dla Państwa firmy - w zależności od Państwa środowiska IT, branży i indywidualnych ryzyk.",
+    "soc.s2_title": "Koncepcja monitorowania",
+    "soc.s2_text": "Doradzamy Państwu, które systemy i źródła danych nadają się do monitoringu i jak niezawodnie wykrywać podejrzaną aktywność.",
+    "soc.s3_title": "Integracja z Państwa istniejącym środowiskiem IT",
+    "soc.s3_text": "Pokazujemy Państwu, jak podejście SOC można wpasować w istniejącą infrastrukturę bez zakłócania bieżącej działalności."
+}
