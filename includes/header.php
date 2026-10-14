@@ -1,4 +1,18 @@
-<?php require_once __DIR__ . '/i18n.php'; ?>
+<?php
+require_once __DIR__ . '/i18n.php';
+
+$page = basename($_SERVER['SCRIPT_NAME'], '.php');
+
+if (t_exists('title.' . $page)) {
+    $pageTitle = t('title.' . $page);
+}
+
+if (t_exists('desc.' . $page)) {
+    $pageDescription = t('desc.' . $page);
+} elseif (!isset($pageDescription)) {
+    $pageDescription = t('meta.default_desc');
+}
+?>
 <!DOCTYPE html>
 <html lang="<?= $lang ?>">
 <head>

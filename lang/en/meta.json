@@ -1,0 +1,32 @@
+{
+    "meta.default_desc": "Bytes Security GmbH - IT security, managed services and compliance consulting from Hamm, Germany.",
+
+    "title.index": "Home",
+    "title.kontakt": "Contact",
+    "title.termin": "Book an Appointment",
+    "title.team": "Team",
+    "title.rueckblick": "Bytes Security Review",
+    "title.cybersecurity": "Cybersecurity",
+    "title.managed-services": "Managed Services",
+    "title.bsi-konformitaet": "BSI Compliance",
+    "title.managed-firewall": "Managed Firewall Services",
+    "title.virenschutz-malware": "Antivirus and Malware Analysis",
+    "title.sicherheitsaudits": "Regular Security Audits",
+    "title.netzwerksicherheit": "Network Security",
+    "title.compliance-bsi": "Compliance Management for BSI Guidelines",
+    "title.cloud-security": "Cloud Security for Microsoft 365",
+    "title.nis2-beratung": "NIS2 Consulting",
+    "title.zugangsverwaltung": "Access and User Management",
+    "title.it-notfallmanagement": "IT Emergency Management",
+    "title.it-awareness-schulungen": "IT Awareness Training",
+    "title.soc-beratung": "SOC Consulting",
+    "title.agb": "Terms and Conditions",
+    "title.impressum": "Legal Notice",
+    "title.datenschutz": "Privacy Policy",
+
+    "desc.nis2-beratung": "Consulting on the NIS2 Directive: impact assessment, risk analysis and implementation support.",
+    "desc.zugangsverwaltung": "Consulting on permissions, roles and multi-factor authentication for your IT systems.",
+    "desc.it-notfallmanagement": "Consulting on IT emergency plans, backup strategies and business continuity for your company.",
+    "desc.it-awareness-schulungen": "Consulting on security awareness training for your company's employees.",
+    "desc.soc-beratung": "Consulting on setting up a Security Operations Center for continuous monitoring of your IT."
+}

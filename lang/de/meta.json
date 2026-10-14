@@ -1,0 +1,32 @@
+{
+    "meta.default_desc": "Bytes Security GmbH - IT-Sicherheit, Managed Services und Compliance-Beratung aus Hamm.",
+
+    "title.index": "Startseite",
+    "title.kontakt": "Kontakt",
+    "title.termin": "Termin buchen",
+    "title.team": "Team",
+    "title.rueckblick": "Bytes Security Rückblick",
+    "title.cybersecurity": "Cybersecurity",
+    "title.managed-services": "Managed Services",
+    "title.bsi-konformitaet": "BSI Konformität",
+    "title.managed-firewall": "Managed Firewall-Services",
+    "title.virenschutz-malware": "Virenschutz und Malware-Analyse",
+    "title.sicherheitsaudits": "Regelmäßige Sicherheitsaudits",
+    "title.netzwerksicherheit": "Netzwerksicherheit",
+    "title.compliance-bsi": "Compliance-Management für BSI-Richtlinien",
+    "title.cloud-security": "Cloud Security für Microsoft 365",
+    "title.nis2-beratung": "NIS2-Beratung",
+    "title.zugangsverwaltung": "Zugangs- und Nutzerverwaltung",
+    "title.it-notfallmanagement": "IT-Notfallmanagement",
+    "title.it-awareness-schulungen": "IT-Awareness-Schulungen",
+    "title.soc-beratung": "SOC-Beratung",
+    "title.agb": "AGB",
+    "title.impressum": "Impressum",
+    "title.datenschutz": "Datenschutzerklärung",
+
+    "desc.nis2-beratung": "Beratung zur NIS2-Richtlinie: Betroffenheitsprüfung, Risikoanalyse und Umsetzungsbegleitung.",
+    "desc.zugangsverwaltung": "Beratung zu Rechten, Rollen und Multi-Faktor-Authentifizierung für Ihre IT-Systeme.",
+    "desc.it-notfallmanagement": "Beratung zu IT-Notfallplänen, Backup-Strategien und Business Continuity für Ihr Unternehmen.",
+    "desc.it-awareness-schulungen": "Beratung zu Security-Awareness-Trainings für Mitarbeiter Ihres Unternehmens.",
+    "desc.soc-beratung": "Beratung zum Aufbau eines Security Operations Center für die kontinuierliche Überwachung Ihrer IT."
+}

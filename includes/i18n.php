@@ -47,3 +47,8 @@ function url(string $path): string {
     $sep = (strpos($path, '?') !== false) ? '&' : '?';
     return $path . $sep . 'lang=' . $lang . $hash;
 }
+
+function t_exists(string $key): bool {
+    global $translations, $fallback;
+    return isset($translations[$key]) || isset($fallback[$key]);
+}

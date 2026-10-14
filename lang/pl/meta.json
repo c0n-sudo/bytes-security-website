@@ -1,0 +1,32 @@
+{
+    "meta.default_desc": "Bytes Security GmbH - bezpieczeństwo IT, usługi zarządzane i doradztwo w zakresie zgodności z siedzibą w Hamm.",
+
+    "title.index": "Strona główna",
+    "title.kontakt": "Kontakt",
+    "title.termin": "Umów termin",
+    "title.team": "Zespół",
+    "title.rueckblick": "Retrospektywa Bytes Security",
+    "title.cybersecurity": "Cyberbezpieczeństwo",
+    "title.managed-services": "Usługi zarządzane",
+    "title.bsi-konformitaet": "Zgodność z BSI",
+    "title.managed-firewall": "Zarządzane usługi zapory sieciowej",
+    "title.virenschutz-malware": "Ochrona antywirusowa i analiza złośliwego oprogramowania",
+    "title.sicherheitsaudits": "Regularne audyty bezpieczeństwa",
+    "title.netzwerksicherheit": "Bezpieczeństwo sieci",
+    "title.compliance-bsi": "Zarządzanie zgodnością z wytycznymi BSI",
+    "title.cloud-security": "Cloud Security dla Microsoft 365",
+    "title.nis2-beratung": "Doradztwo NIS2",
+    "title.zugangsverwaltung": "Zarządzanie dostępem i użytkownikami",
+    "title.it-notfallmanagement": "Zarządzanie kryzysowe IT",
+    "title.it-awareness-schulungen": "Szkolenia uświadamiające IT",
+    "title.soc-beratung": "Doradztwo SOC",
+    "title.agb": "Ogólne warunki handlowe",
+    "title.impressum": "Impressum",
+    "title.datenschutz": "Polityka prywatności",
+
+    "desc.nis2-beratung": "Doradztwo w zakresie dyrektywy NIS2: ocena, czy dotyczy Państwa firmy, analiza ryzyka i wsparcie we wdrożeniu.",
+    "desc.zugangsverwaltung": "Doradztwo w zakresie uprawnień, ról i uwierzytelniania wieloskładnikowego dla Państwa systemów IT.",
+    "desc.it-notfallmanagement": "Doradztwo w zakresie planów awaryjnych IT, strategii kopii zapasowych i ciągłości działania dla Państwa firmy.",
+    "desc.it-awareness-schulungen": "Doradztwo w zakresie szkoleń uświadamiających z bezpieczeństwa dla pracowników Państwa firmy.",
+    "desc.soc-beratung": "Doradztwo w zakresie budowy Security Operations Center do ciągłego monitorowania Państwa środowiska IT."
+}
