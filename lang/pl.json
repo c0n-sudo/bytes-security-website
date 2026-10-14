@@ -1,3 +1,27 @@
 {
-    
+    "hero.eyebrow": "Bezpieczeństwo IT z Hamm",
+    "nav.services": "Usługi",
+    "nav.cybersecurity": "Cyberbezpieczeństwo",
+    "nav.managed": "Usługi zarządzane",
+    "nav.bsi": "Zgodność z BSI",
+    "nav.nis2": "Doradztwo NIS2",
+    "nav.access": "Zarządzanie dostępem i użytkownikami",
+    "nav.emergency": "Zarządzanie kryzysowe IT",
+    "nav.awareness": "Szkolenia uświadamiające IT",
+    "nav.soc": "Doradztwo SOC",
+    "nav.solutions": "Rozwiązania",
+    "nav.trainings": "Szkolenia",
+    "nav.business": "Model biznesowy",
+    "nav.contact": "Kontakt",
+    "nav.team": "Zespół",
+    "nav.team_about": "Nasz zespół",
+    "nav.review": "Retrospektywa Bytes Security",
+    "btn.inquiry": "Wyślij zapytanie",
+    "btn.booking": "Umów termin",
+    "footer.tagline": "Bezpieczeństwo naszych klientów jest dla nas najwyższym priorytetem.",
+    "footer.contact": "Kontakt",
+    "footer.partner": "Partner",
+    "footer.terms": "Ogólne warunki handlowe",
+    "footer.imprint": "Impressum",
+    "footer.privacy": "Polityka prywatności"
 }
